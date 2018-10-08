@@ -2,7 +2,7 @@
 
 namespace Utilities.Contracts
 {
-    public interface IRunnable
+   public  interface IRunnable
     {
         void Run();
     }

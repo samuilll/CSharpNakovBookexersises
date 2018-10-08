@@ -6,13 +6,13 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Utilities.Contracts;
 
-namespace Chapter_9_Methods.Task11
+namespace Chapter_9_Methods.Problem11
 {
-   public class LinealEquationService:IRunnable
+    class LinealEquationService:IRunnable
     {
         public void Run()
         {
-            Console.WriteLine("Please enter equation to evaluate:");
+            Console.WriteLine("Please enter equation to evaluate (it must be of type a*x+b=0 where x is unknown):");
 
             string input = null;
             Regex  regex = new Regex("(?<firstNum>[-0-9]+)\\*[A-Z-a-z]\\+(?<secondNum>[0-9]+)=0");

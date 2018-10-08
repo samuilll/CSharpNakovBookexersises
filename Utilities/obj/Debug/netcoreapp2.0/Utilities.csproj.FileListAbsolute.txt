@@ -7,3 +7,12 @@ E:\Sami\GitHub\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilit
 E:\Sami\GitHub\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.AssemblyInfo.cs
 E:\Sami\GitHub\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.dll
 E:\Sami\GitHub\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.pdb
+D:\CSharpNakovBookexersises\Utilities\bin\Debug\netcoreapp2.0\Utilities.deps.json
+D:\CSharpNakovBookexersises\Utilities\bin\Debug\netcoreapp2.0\Utilities.dll
+D:\CSharpNakovBookexersises\Utilities\bin\Debug\netcoreapp2.0\Utilities.pdb
+D:\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.csprojAssemblyReference.cache
+D:\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.csproj.CoreCompileInputs.cache
+D:\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.AssemblyInfoInputs.cache
+D:\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.AssemblyInfo.cs
+D:\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.dll
+D:\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.pdb

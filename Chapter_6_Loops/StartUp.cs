@@ -6,11 +6,11 @@ namespace Chapter_6
     {
         static void Main(string[] args)
         {
-            Task_17 task17 = new Task_17();
-         //   task17.Run();
+            Problem_17 problem17 = new Problem_17();
+           problem17.Run();
 
-            Task_16 task16 = new Task_16();
-            task16.Run();
+            Problem_16 problem16 = new Problem_16();
+           // problem16.Run();
         }
     }
 }

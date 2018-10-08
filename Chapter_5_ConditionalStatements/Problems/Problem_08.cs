@@ -2,9 +2,9 @@
 
 using Utilities.Contracts;
 
-namespace Chapter_5.Tasks
+namespace Chapter_5.Problems
 {
-    public class Task_08 : IRunnable
+     class Problem_08 : IRunnable
     {
         public void Run()
         {

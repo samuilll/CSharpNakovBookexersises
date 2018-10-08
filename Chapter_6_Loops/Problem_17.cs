@@ -3,9 +3,9 @@ using Utilities.Contracts;
 
 namespace Chapter_6
 {
-    public class Task_17 : IRunnable
+     class Problem_17 : IRunnable
     {
-        public void Run()
+         public void Run()
         {
             Console.WriteLine("Please insert first number:");
             int num1 = int.Parse(Console.ReadLine());
@@ -15,7 +15,7 @@ namespace Chapter_6
 
             int result = FindGreatCommonDiviser(num1, num2);
 
-            Console.WriteLine("Output:");
+            Console.WriteLine("CreatestCommonDiviser:");
             Console.WriteLine(result);
         }
 

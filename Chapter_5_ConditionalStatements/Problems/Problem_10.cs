@@ -1,14 +1,15 @@
 ﻿using System;
 using Utilities.Contracts;
 
-namespace Chapter_5.Tasks
+namespace Chapter_5.Problems
 {
-    public class Task_10 : IRunnable
+     class Problem_10 : IRunnable
     {
         private const string InvalidPointsErrorMessage = "Points must be between 1 and 9!";
 
         public void Run()
         {
+            Console.WriteLine("Please insert entry points:");
             int entryPoints = int.Parse(Console.ReadLine());
 
             if (entryPoints <= 0 || entryPoints > 9)
@@ -35,13 +36,13 @@ namespace Chapter_5.Tasks
                 case 7:
                 case 8:
                 case 9:
-                    outputPoints = entryPoints * 100;
+                    outputPoints = entryPoints * 1000;
                     break;
                 default:
                     break;
             }
 
-            Console.WriteLine("Output");
+            Console.WriteLine("Output:");
             Console.WriteLine(outputPoints);
         }
     }

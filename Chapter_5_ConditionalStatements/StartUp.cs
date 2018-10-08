@@ -1,4 +1,4 @@
-﻿using Chapter_5.Tasks;
+﻿using Chapter_5.Problems;
 using System;
 
 namespace Chapter_5
@@ -7,11 +7,11 @@ namespace Chapter_5
     {
         static void Main(string[] args)
         {
-            Task_10 task10 = new Task_10();
-           // task10.Run();
+            Problem_10 problem10 = new Problem_10();
+            problem10.Run();
 
-            Task_08 task8 = new Task_08();
-            task8.Run();
+            Problem_08 problem8 = new Problem_08();
+            //problem8.Run();
         }
     }
 }

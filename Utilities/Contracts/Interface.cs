@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Utilities.Contracts
 {
-   public interface IWriter
+    interface IWriter
     {
         void Write(string text);
     }

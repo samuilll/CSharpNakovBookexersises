@@ -2,11 +2,11 @@
 using System.Linq;
 using Utilities.Contracts;
 
-namespace Chapter_9_Methods.Task11.Services
+namespace Chapter_9_Methods.Problem11.Services
 {
-  public  class ReverseNumService:IRunnable
+    class ReverseNumService:IRunnable
     {
-      
+
         public void Run()
         {
             decimal num = this.InsertNonNegativeValue();

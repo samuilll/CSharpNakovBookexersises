@@ -6,7 +6,7 @@ using Utilities.Contracts;
 
 namespace Chapter_7_Arrays
 {
-    class Task_06:IRunnable
+    class Problem_06:IRunnable
     {
         public void Run()
         {
@@ -72,7 +72,7 @@ namespace Chapter_7_Arrays
 
             result.Reverse();
 
-            Console.WriteLine("Output:");
+            Console.WriteLine("The longest increasing subsequence:");
 
             Console.WriteLine(string.Join(" ", result));
         }

@@ -1,5 +1,6 @@
 ﻿using System;
-using Chapter_9_Methods.Task11;
+using Chapter_9_Methods.Problem11;
+using Chapter_9_Methods.Problem12;
 
 namespace Chapter_9_Methods
 {
@@ -7,9 +8,12 @@ namespace Chapter_9_Methods
     {
         static void Main(string[] args)
         {
-            Task_11 task11 = new Task_11();
+            Problem_11 problem11 = new Problem_11();
+            problem11.Run();
 
-            task11.Run();
+            Problem_9 problem9 = new Problem_9();
+           // problem9.Run();
+
         }
     }
 }

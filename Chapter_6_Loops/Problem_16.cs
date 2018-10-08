@@ -6,7 +6,7 @@ using Utilities.Contracts;
 
 namespace Chapter_6
 {
-    public class Task_16 : IRunnable
+     class Problem_16 : IRunnable
     {
         public void Run()
         {
@@ -22,6 +22,7 @@ namespace Chapter_6
                 list.Add(i);
             }
 
+            Console.WriteLine("Your numbers rendomized:");
             while (list.Any())
             {
                 int numToPrint = list[randomizer.Next(list.Count)];

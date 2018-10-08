@@ -12,3 +12,17 @@ E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.
 E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.csproj.CopyComplete
 E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.dll
 E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.pdb
+D:\CSharpNakovBookexersises\Chapter_9_Methods\bin\Debug\netcoreapp2.0\Chapter_9_Methods.deps.json
+D:\CSharpNakovBookexersises\Chapter_9_Methods\bin\Debug\netcoreapp2.0\Chapter_9_Methods.runtimeconfig.json
+D:\CSharpNakovBookexersises\Chapter_9_Methods\bin\Debug\netcoreapp2.0\Chapter_9_Methods.runtimeconfig.dev.json
+D:\CSharpNakovBookexersises\Chapter_9_Methods\bin\Debug\netcoreapp2.0\Chapter_9_Methods.dll
+D:\CSharpNakovBookexersises\Chapter_9_Methods\bin\Debug\netcoreapp2.0\Chapter_9_Methods.pdb
+D:\CSharpNakovBookexersises\Chapter_9_Methods\bin\Debug\netcoreapp2.0\Utilities.dll
+D:\CSharpNakovBookexersises\Chapter_9_Methods\bin\Debug\netcoreapp2.0\Utilities.pdb
+D:\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.csprojAssemblyReference.cache
+D:\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.csproj.CoreCompileInputs.cache
+D:\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.AssemblyInfoInputs.cache
+D:\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.AssemblyInfo.cs
+D:\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.csproj.CopyComplete
+D:\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.dll
+D:\CSharpNakovBookexersises\Chapter_9_Methods\obj\Debug\netcoreapp2.0\Chapter_9_Methods.pdb

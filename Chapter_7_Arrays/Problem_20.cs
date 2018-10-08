@@ -6,7 +6,7 @@ using Utilities.Contracts;
 
 namespace Chapter_7_Arrays
 {
-    public class Task_20 : IRunnable
+     class Problem_20 : IRunnable
     {
         public void Run()
         {
@@ -19,7 +19,10 @@ namespace Chapter_7_Arrays
             Console.WriteLine("Please insert searched sum target:");
             int target = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(FindSum(myList, target).Any());      
+            bool haveSum = FindSum(myList, target).Any();
+
+            Console.WriteLine("Is there a sum equal to the target:");
+            Console.WriteLine(haveSum?"Yes":"No");      
         }
 
         private List<int> FindSum(List<int> numbers, int target, int index = 0)

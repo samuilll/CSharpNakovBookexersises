@@ -1,12 +1,12 @@
 ﻿using System;
-using Chapter_9_Methods.Task11.Services;
+using Chapter_9_Methods.Problem11.Services;
 using Utilities.Contracts;
 
-namespace Chapter_9_Methods.Task11
+namespace Chapter_9_Methods.Problem11
 {
-    public class Task_11 : IRunnable
+     class Problem_11 : IRunnable
     {
-        public void Run()
+      public  void Run()
         {
             int choice = ChooseAnOption();
 
@@ -20,7 +20,7 @@ namespace Chapter_9_Methods.Task11
                     }
                 case 2:
                     {
-                        AverageInSequenceService averageManager = new AverageInSequenceService();
+                        ArrayService averageManager = new ArrayService();
                         averageManager.Run();
                         break;
                     }
@@ -59,5 +59,7 @@ namespace Chapter_9_Methods.Task11
 
             return choice;
         }
+
+   
     }
 }

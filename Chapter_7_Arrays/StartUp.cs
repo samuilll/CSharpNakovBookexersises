@@ -6,11 +6,11 @@ namespace Chapter_7_Arrays
     {
         static void Main(string[] args)
         {
-            Task_20 task20 = new Task_20();
-          //  task20.Run();
+            Problem_20 problem20 = new Problem_20();
+           problem20.Run();
 
-            Task_06 task6 = new Task_06();
-            task6.Run();
+            Problem_06 problem6 = new Problem_06();
+            //problem6.Run();
         }
     }
 }
