@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -656,11 +666,17 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -670,11 +686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj",
-      "projectName": "Utilities",
-      "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj",
+      "projectUniqueName": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_9_Methods\\Chapter_9_Methods.csproj",
+      "projectName": "Chapter_9_Methods",
+      "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_9_Methods\\Chapter_9_Methods.csproj",
       "packagesPath": "C:\\Users\\Stella\\.nuget\\packages\\",
-      "outputPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\obj\\",
+      "outputPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_9_Methods\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -692,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
+              "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -705,7 +725,6 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true

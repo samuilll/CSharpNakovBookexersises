@@ -1,0 +1,14 @@
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\obj\Debug\netcoreapp2.0\Chapter_7_Arrays.csprojAssemblyReference.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\obj\Debug\netcoreapp2.0\Chapter_7_Arrays.csproj.CoreCompileInputs.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\obj\Debug\netcoreapp2.0\Chapter_7_Arrays.AssemblyInfoInputs.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\obj\Debug\netcoreapp2.0\Chapter_7_Arrays.AssemblyInfo.cs
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\bin\Debug\netcoreapp2.0\Chapter_7_Arrays.deps.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\bin\Debug\netcoreapp2.0\Chapter_7_Arrays.runtimeconfig.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\bin\Debug\netcoreapp2.0\Chapter_7_Arrays.runtimeconfig.dev.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\bin\Debug\netcoreapp2.0\Chapter_7_Arrays.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\bin\Debug\netcoreapp2.0\Chapter_7_Arrays.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\bin\Debug\netcoreapp2.0\Utilities.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\bin\Debug\netcoreapp2.0\Utilities.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\obj\Debug\netcoreapp2.0\Chapter_7_Arrays.csproj.CopyComplete
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\obj\Debug\netcoreapp2.0\Chapter_7_Arrays.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_7_Arrays\obj\Debug\netcoreapp2.0\Chapter_7_Arrays.pdb
