@@ -1,0 +1,9 @@
+D:\CSharpBookExersises\Utilities\bin\Debug\netcoreapp2.0\Utilities.deps.json
+D:\CSharpBookExersises\Utilities\bin\Debug\netcoreapp2.0\Utilities.dll
+D:\CSharpBookExersises\Utilities\bin\Debug\netcoreapp2.0\Utilities.pdb
+D:\CSharpBookExersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.csprojAssemblyReference.cache
+D:\CSharpBookExersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.csproj.CoreCompileInputs.cache
+D:\CSharpBookExersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.AssemblyInfoInputs.cache
+D:\CSharpBookExersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.AssemblyInfo.cs
+D:\CSharpBookExersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.dll
+D:\CSharpBookExersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.pdb

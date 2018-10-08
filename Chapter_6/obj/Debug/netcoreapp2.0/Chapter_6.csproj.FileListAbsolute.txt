@@ -1,0 +1,14 @@
+D:\CSharpBookExersises\Chapter_6\bin\Debug\netcoreapp2.0\Chapter_6.deps.json
+D:\CSharpBookExersises\Chapter_6\bin\Debug\netcoreapp2.0\Chapter_6.runtimeconfig.json
+D:\CSharpBookExersises\Chapter_6\bin\Debug\netcoreapp2.0\Chapter_6.runtimeconfig.dev.json
+D:\CSharpBookExersises\Chapter_6\bin\Debug\netcoreapp2.0\Chapter_6.dll
+D:\CSharpBookExersises\Chapter_6\bin\Debug\netcoreapp2.0\Chapter_6.pdb
+D:\CSharpBookExersises\Chapter_6\bin\Debug\netcoreapp2.0\Utilities.dll
+D:\CSharpBookExersises\Chapter_6\bin\Debug\netcoreapp2.0\Utilities.pdb
+D:\CSharpBookExersises\Chapter_6\obj\Debug\netcoreapp2.0\Chapter_6.csprojAssemblyReference.cache
+D:\CSharpBookExersises\Chapter_6\obj\Debug\netcoreapp2.0\Chapter_6.csproj.CoreCompileInputs.cache
+D:\CSharpBookExersises\Chapter_6\obj\Debug\netcoreapp2.0\Chapter_6.AssemblyInfoInputs.cache
+D:\CSharpBookExersises\Chapter_6\obj\Debug\netcoreapp2.0\Chapter_6.AssemblyInfo.cs
+D:\CSharpBookExersises\Chapter_6\obj\Debug\netcoreapp2.0\Chapter_6.csproj.CopyComplete
+D:\CSharpBookExersises\Chapter_6\obj\Debug\netcoreapp2.0\Chapter_6.dll
+D:\CSharpBookExersises\Chapter_6\obj\Debug\netcoreapp2.0\Chapter_6.pdb
