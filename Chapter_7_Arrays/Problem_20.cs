@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Utilities;
 using Utilities.Contracts;
 
 namespace Chapter_7_Arrays
 {
-     class Problem_20 : IRunnable
+     class Problem_20 : Problem
     {
-        public void Run()
+        // Compute is there is a subset with sum equal to the input target
+        public override void Run()
         {
             Console.WriteLine("Please insert the number sequence");
             List<int> myList = Console.ReadLine()

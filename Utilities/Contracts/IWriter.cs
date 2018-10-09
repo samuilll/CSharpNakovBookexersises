@@ -4,8 +4,10 @@ using System.Text;
 
 namespace Utilities.Contracts
 {
-    interface IWriter
+  public  interface IWriter
     {
-        void Write(string text);
+        void WriteLine(object obj);
+
+        void Write(object obj);
     }
 }

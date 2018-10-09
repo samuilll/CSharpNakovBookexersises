@@ -1,14 +1,13 @@
-﻿using Chapter_9_Methods.Problem11.Services;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Utilities.Contracts;
+﻿using System;
+using Chapter_9_Methods.Problem11.Services;
+using Utilities;
 
-namespace Chapter_9_Methods.Problem12
+namespace Chapter_9_Methods.Problem9
 {
-    class Problem_9:IRunnable
+    //Find max number in the specified range of an array and sort items in descending order
+    class Problem_9:Problem
     {
-        public void Run()
+        public override void Run()
         {
             ArrayService service = new ArrayService();
             decimal[] sequence = service.InsertNonEmptySequence();

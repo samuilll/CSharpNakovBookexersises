@@ -1,16 +1,14 @@
-﻿using System;
+﻿using Utilities;
 
-using Utilities.Contracts;
-
-namespace Chapter_5.Problems
+namespace Chapter_5_ConditionalStatements.Problems
 {
-     class Problem_08 : IRunnable
+     class Problem_08 : Problem
     {
-        public void Run()
+        public override void Run()
         {
-            Console.WriteLine("Please insert int, double or string value");
+            Writer.WriteLine("Please insert int, double or string value");
 
-            object obj = Console.ReadLine();
+            object obj = this.Reader.ReadLine();
 
             bool isInteger = int.TryParse(obj.ToString(), out int integerNumber);
             bool isDouble = double.TryParse(obj.ToString(),out double doubleNumber);
@@ -27,8 +25,9 @@ namespace Chapter_5.Problems
                 result = result + "*";
             }
 
-            Console.WriteLine("Output:");
-            Console.WriteLine(result);
+            Writer.WriteLine("Output:");
+            Writer.WriteLine(result);
         }
+
     }
 }

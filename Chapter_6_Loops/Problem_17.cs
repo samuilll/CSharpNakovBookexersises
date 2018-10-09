@@ -1,11 +1,12 @@
 ﻿using System;
-using Utilities.Contracts;
+using Utilities;
 
-namespace Chapter_6
+namespace Chapter_6_Loops
 {
-     class Problem_17 : IRunnable
+     class Problem_17 : Problem
     {
-         public void Run()
+        //Finding the greatest common diviser of tho numbers
+         public override void Run()
         {
             Console.WriteLine("Please insert first number:");
             int num1 = int.Parse(Console.ReadLine());

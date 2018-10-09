@@ -1,20 +1,19 @@
-﻿using System;
-using Utilities.Contracts;
+﻿using Utilities;
 
-namespace Chapter_5.Problems
+namespace Chapter_5_ConditionalStatements.Problems
 {
-     class Problem_10 : IRunnable
+     class Problem_10 : Problem
     {
         private const string InvalidPointsErrorMessage = "Points must be between 1 and 9!";
 
-        public void Run()
+        public override void Run()
         {
-            Console.WriteLine("Please insert entry points:");
-            int entryPoints = int.Parse(Console.ReadLine());
+            Writer.WriteLine("Please insert entry points:");
+            int entryPoints = int.Parse(this.Reader.ReadLine());
 
             if (entryPoints <= 0 || entryPoints > 9)
             {
-                Console.WriteLine(InvalidPointsErrorMessage);
+                Writer.WriteLine(InvalidPointsErrorMessage);
 
                 return;
             }
@@ -42,8 +41,8 @@ namespace Chapter_5.Problems
                     break;
             }
 
-            Console.WriteLine("Output:");
-            Console.WriteLine(outputPoints);
+            Writer.WriteLine("Output:");
+            Writer.WriteLine(outputPoints);
         }
     }
 }

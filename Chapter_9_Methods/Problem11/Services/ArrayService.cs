@@ -1,26 +1,29 @@
 ﻿using System;
 using System.Linq;
+using Utilities;
 using Utilities.Contracts;
 
 namespace Chapter_9_Methods.Problem11.Services
 {
-    internal class ArrayService : IRunnable
+    internal class ArrayService : Problem
     {
-        public void Run()
+
+
+        public override void Run()
         {
             decimal[] sequence = this.InsertNonEmptySequence();
 
             decimal average = sequence.Average();
 
-            Console.WriteLine("Average value:");
-            Console.WriteLine(average.ToString("f2"));
+            Writer.WriteLine("Average value:");
+            Writer.WriteLine(average.ToString("f2"));
         }
 
         internal int FindMaxInRangeIndex(decimal[] sequence, int startIndex, int endIndex)
         {
             if (startIndex > endIndex || !IsIndexValid(sequence, startIndex) || !IsIndexValid(sequence, endIndex))
             {
-                Console.WriteLine("Invalid index!");
+                Writer.WriteLine("Invalid index!");
             }
 
             decimal maxElement = int.MinValue;
@@ -44,7 +47,7 @@ namespace Chapter_9_Methods.Problem11.Services
 
         internal decimal[] InsertNonEmptySequence()
         {
-            Console.WriteLine("Please enter sequence members");
+            Writer.WriteLine("Please enter sequence members");
 
             decimal[] sequence = null;
 
@@ -52,14 +55,14 @@ namespace Chapter_9_Methods.Problem11.Services
             {
                 try
                 {
-                    sequence = Console.ReadLine()
+                    sequence = this.Reader.ReadLine()
                     .Split(new char[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries)
                     .Select(decimal.Parse)
                     .ToArray();
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                    Writer.WriteLine(e.Message);
                 }
             }
 

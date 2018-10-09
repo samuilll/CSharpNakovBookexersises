@@ -1,18 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Text.RegularExpressions;
-using Utilities.Contracts;
+using Utilities;
 
-namespace Chapter_9_Methods.Problem11
+namespace Chapter_9_Methods.Problem11.Services
 {
-    class LinealEquationService:IRunnable
+    class LinealEquationService:Problem
     {
-        public void Run()
+
+        public override void Run()
         {
-            Console.WriteLine("Please enter equation to evaluate (it must be of type a*x+b=0 where x is unknown):");
+            Writer.WriteLine("Please enter equation to evaluate (it must be of type a*x+b=0 where x is unknown):");
 
             string input = null;
             Regex  regex = new Regex("(?<firstNum>[-0-9]+)\\*[A-Z-a-z]\\+(?<secondNum>[0-9]+)=0");
@@ -22,7 +19,7 @@ namespace Chapter_9_Methods.Problem11
             {
                 try
                 {
-                    input = Console.ReadLine();
+                    input = this.Reader.ReadLine();
 
                     Match match = regex.Match(input);
 
@@ -41,12 +38,12 @@ namespace Chapter_9_Methods.Problem11
 
                     decimal result = secondNum * (-1) / firstNum;
 
-                    Console.WriteLine("The result is:");
-                    Console.WriteLine(result);
+                    Writer.WriteLine("The result is:");
+                    Writer.WriteLine(result);
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.Message);
+                    Writer.WriteLine(e.Message);
                 }
             } while (!regex.IsMatch(input) || !isNonZero);
 

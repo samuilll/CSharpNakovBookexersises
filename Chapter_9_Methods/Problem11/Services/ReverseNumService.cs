@@ -1,20 +1,21 @@
 ﻿using System;
 using System.Linq;
+using Utilities;
 using Utilities.Contracts;
 
 namespace Chapter_9_Methods.Problem11.Services
 {
-    class ReverseNumService:IRunnable
+    class ReverseNumService:Problem
     {
 
-        public void Run()
+        public override void Run()
         {
             decimal num = this.InsertNonNegativeValue();
 
             decimal reversedNum = ReverseNumber(num);
 
-            Console.WriteLine("Reversed num:");
-            Console.WriteLine("Reversed num is equal to {0}",reversedNum);
+            Writer.WriteLine("Reversed num:");
+            Writer.WriteLine($"Reversed num is equal to {reversedNum}");
         }
 
         private decimal ReverseNumber(decimal num)
@@ -28,16 +29,16 @@ namespace Chapter_9_Methods.Problem11.Services
 
         private decimal InsertNonNegativeValue()
         {
-            Console.WriteLine("Please enter a non negative number to reverse");
-            string valueAsString = Console.ReadLine();
+            Writer.WriteLine("Please enter a non negative number to reverse");
+            string valueAsString = this.Reader.ReadLine();
 
             decimal value = 0;
 
             while (!decimal.TryParse(valueAsString, out value) || value<0)
             {
-                Console.WriteLine("Invalid value!");
+                Writer.WriteLine("Invalid value!");
 
-                valueAsString = Console.ReadLine();
+                valueAsString = this.Reader.ReadLine();
             }
 
             return value;

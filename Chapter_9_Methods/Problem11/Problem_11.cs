@@ -1,12 +1,13 @@
 ﻿using System;
 using Chapter_9_Methods.Problem11.Services;
+using Utilities;
 using Utilities.Contracts;
 
 namespace Chapter_9_Methods.Problem11
 {
-     class Problem_11 : IRunnable
+     class Problem_11 : Problem
     {
-      public  void Run()
+      public override  void Run()
         {
             int choice = ChooseAnOption();
 

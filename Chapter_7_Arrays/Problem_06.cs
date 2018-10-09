@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Utilities;
 using Utilities.Contracts;
 
 namespace Chapter_7_Arrays
 {
-    class Problem_06:IRunnable
+    class Problem_06:Problem
     {
-        public void Run()
+        //Search the longest increasing subset in an array
+        public override void Run()
         {
             Console.WriteLine("Please insert sequence:");
 

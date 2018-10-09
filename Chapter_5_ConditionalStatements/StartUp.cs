@@ -1,17 +1,17 @@
-﻿using Chapter_5.Problems;
-using System;
+﻿using Chapter_5_ConditionalStatements.Problems;
+using Utilities;
 
-namespace Chapter_5
+namespace Chapter_5_ConditionalStatements
 {
     class StartUp
     {
         static void Main(string[] args)
         {
-            Problem_10 problem10 = new Problem_10();
-            problem10.Run();
+            Problem problem10 = new Problem_10();
+            //problem10.Run();
 
-            Problem_08 problem8 = new Problem_08();
-            //problem8.Run();
+            Problem problem8 = new Problem_08();
+            problem8.Run();
         }
     }
 }
