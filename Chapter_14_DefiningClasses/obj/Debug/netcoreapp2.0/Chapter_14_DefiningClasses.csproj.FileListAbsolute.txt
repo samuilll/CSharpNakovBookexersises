@@ -1,0 +1,14 @@
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.deps.json
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.runtimeconfig.json
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.runtimeconfig.dev.json
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.dll
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.pdb
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Utilities.dll
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Utilities.pdb
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.csprojAssemblyReference.cache
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.csproj.CoreCompileInputs.cache
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.AssemblyInfoInputs.cache
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.AssemblyInfo.cs
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.csproj.CopyComplete
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.dll
+D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.pdb
