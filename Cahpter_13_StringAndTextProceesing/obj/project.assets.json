@@ -680,23 +680,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stella\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Sami\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Cahpter_13_StringAndTextProceesing\\Cahpter_13_StringAndTextProceesing.csproj",
+      "projectUniqueName": "D:\\CSharpNakovBookexersises\\Cahpter_13_StringAndTextProceesing\\Cahpter_13_StringAndTextProceesing.csproj",
       "projectName": "Cahpter_13_StringAndTextProceesing",
-      "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Cahpter_13_StringAndTextProceesing\\Cahpter_13_StringAndTextProceesing.csproj",
-      "packagesPath": "C:\\Users\\Stella\\.nuget\\packages\\",
-      "outputPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Cahpter_13_StringAndTextProceesing\\obj\\",
+      "projectPath": "D:\\CSharpNakovBookexersises\\Cahpter_13_StringAndTextProceesing\\Cahpter_13_StringAndTextProceesing.csproj",
+      "packagesPath": "C:\\Users\\Sami\\.nuget\\packages\\",
+      "outputPath": "D:\\CSharpNakovBookexersises\\Cahpter_13_StringAndTextProceesing\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Stella\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -709,8 +705,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
-              "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
+            "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
             }
           }
         }

@@ -13,15 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_6_Loops", "Chapter_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_9_Methods", "Chapter_9_Methods\Chapter_9_Methods.csproj", "{184CBC18-20B3-4438-A14F-811F374B204A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_10_Recusrion", "Chapter_10_Recusrion\Chapter_10_Recusrion.csproj", "{5BAD31D8-2383-4018-A9CD-2D9FD0BC3C79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_10_Recusrion", "Chapter_10_Recusrion\Chapter_10_Recusrion.csproj", "{5BAD31D8-2383-4018-A9CD-2D9FD0BC3C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_4_ConsoleInputOutput", "Chapter_4_ConsoleInputOutput\Chapter_4_ConsoleInputOutput.csproj", "{441F8DB6-9F7B-435D-90DD-5EE9230EC5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_4_ConsoleInputOutput", "Chapter_4_ConsoleInputOutput\Chapter_4_ConsoleInputOutput.csproj", "{441F8DB6-9F7B-435D-90DD-5EE9230EC5F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_11_CreatingAndUsingObjects", "Chapter_11_CreatingAndUsingObjects\Chapter_11_CreatingAndUsingObjects.csproj", "{DD5C19D3-7471-4A25-860C-6B9D98ACC831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_11_CreatingAndUsingObjects", "Chapter_11_CreatingAndUsingObjects\Chapter_11_CreatingAndUsingObjects.csproj", "{DD5C19D3-7471-4A25-860C-6B9D98ACC831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_12_ExceptionHandling", "Chapter_12_ExceptionHandling\Chapter_12_ExceptionHandling.csproj", "{9BB927BE-7BE3-4189-B363-8B7AA785F20E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_12_ExceptionHandling", "Chapter_12_ExceptionHandling\Chapter_12_ExceptionHandling.csproj", "{9BB927BE-7BE3-4189-B363-8B7AA785F20E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cahpter_13_StringAndTextProceesing", "Cahpter_13_StringAndTextProceesing\Cahpter_13_StringAndTextProceesing.csproj", "{01F54CAF-53A2-4A35-B279-1E67170E19CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cahpter_13_StringAndTextProceesing", "Cahpter_13_StringAndTextProceesing\Cahpter_13_StringAndTextProceesing.csproj", "{01F54CAF-53A2-4A35-B279-1E67170E19CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_14_DefiningClasses", "Chapter_14_DefiningClasses\Chapter_14_DefiningClasses.csproj", "{9EA76349-7EB8-4929-80A8-AAAEBF1B10FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{01F54CAF-53A2-4A35-B279-1E67170E19CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01F54CAF-53A2-4A35-B279-1E67170E19CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01F54CAF-53A2-4A35-B279-1E67170E19CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA76349-7EB8-4929-80A8-AAAEBF1B10FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA76349-7EB8-4929-80A8-AAAEBF1B10FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA76349-7EB8-4929-80A8-AAAEBF1B10FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA76349-7EB8-4929-80A8-AAAEBF1B10FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -680,23 +680,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stella\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Sami\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_7_Arrays\\Chapter_7_Arrays.csproj",
+      "projectUniqueName": "D:\\CSharpNakovBookexersises\\Chapter_7_Arrays\\Chapter_7_Arrays.csproj",
       "projectName": "Chapter_7_Arrays",
-      "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_7_Arrays\\Chapter_7_Arrays.csproj",
-      "packagesPath": "C:\\Users\\Stella\\.nuget\\packages\\",
-      "outputPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_7_Arrays\\obj\\",
+      "projectPath": "D:\\CSharpNakovBookexersises\\Chapter_7_Arrays\\Chapter_7_Arrays.csproj",
+      "packagesPath": "C:\\Users\\Sami\\.nuget\\packages\\",
+      "outputPath": "D:\\CSharpNakovBookexersises\\Chapter_7_Arrays\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Stella\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -709,8 +705,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
-              "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
+            "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
             }
           }
         }
