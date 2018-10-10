@@ -664,19 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sami\\.nuget\\packages\\": {}
+    "C:\\Users\\Stella\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj",
+      "projectUniqueName": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj",
       "projectName": "Utilities",
-      "projectPath": "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj",
-      "packagesPath": "C:\\Users\\Sami\\.nuget\\packages\\",
-      "outputPath": "D:\\CSharpNakovBookexersises\\Utilities\\obj\\",
+      "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj",
+      "packagesPath": "C:\\Users\\Stella\\.nuget\\packages\\",
+      "outputPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stella\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -12,3 +12,17 @@ D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\C
 D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.csproj.CopyComplete
 D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.dll
 D:\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.deps.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.runtimeconfig.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.runtimeconfig.dev.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Utilities.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\bin\Debug\netcoreapp2.0\Utilities.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.csprojAssemblyReference.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.csproj.CoreCompileInputs.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.AssemblyInfoInputs.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.AssemblyInfo.cs
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.csproj.CopyComplete
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_14_DefiningClasses\obj\Debug\netcoreapp2.0\Chapter_14_DefiningClasses.pdb

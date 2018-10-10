@@ -1,0 +1,14 @@
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\bin\Debug\netcoreapp2.0\Chapter_10_Recusrion.deps.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\bin\Debug\netcoreapp2.0\Chapter_10_Recusrion.runtimeconfig.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\bin\Debug\netcoreapp2.0\Chapter_10_Recusrion.runtimeconfig.dev.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\bin\Debug\netcoreapp2.0\Chapter_10_Recusrion.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\bin\Debug\netcoreapp2.0\Chapter_10_Recusrion.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\bin\Debug\netcoreapp2.0\Utilities.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\bin\Debug\netcoreapp2.0\Utilities.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\obj\Debug\netcoreapp2.0\Chapter_10_Recusrion.csprojAssemblyReference.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\obj\Debug\netcoreapp2.0\Chapter_10_Recusrion.csproj.CoreCompileInputs.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\obj\Debug\netcoreapp2.0\Chapter_10_Recusrion.AssemblyInfoInputs.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\obj\Debug\netcoreapp2.0\Chapter_10_Recusrion.AssemblyInfo.cs
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\obj\Debug\netcoreapp2.0\Chapter_10_Recusrion.csproj.CopyComplete
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\obj\Debug\netcoreapp2.0\Chapter_10_Recusrion.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_10_Recusrion\obj\Debug\netcoreapp2.0\Chapter_10_Recusrion.pdb

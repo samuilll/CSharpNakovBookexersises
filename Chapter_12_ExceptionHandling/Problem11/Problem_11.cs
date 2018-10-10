@@ -21,7 +21,7 @@ namespace Chapter_12_ExceptionHandling.Problem11
                 string path = this.Reader.ReadLine();
                 string fileName = path.Split('\\').Last();
 
-                string content = manager.ReadFile(path);
+                string content = manager.ReadAllText(path);
 
                 string[] lines = content.Split(Environment.NewLine).ToArray();
 

@@ -1,0 +1,13 @@
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\bin\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.deps.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\bin\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.runtimeconfig.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\bin\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.runtimeconfig.dev.json
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\bin\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\bin\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\bin\Debug\netcoreapp2.0\Utilities.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\bin\Debug\netcoreapp2.0\Utilities.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.csproj.CoreCompileInputs.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.AssemblyInfoInputs.cache
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.AssemblyInfo.cs
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.csproj.CopyComplete
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.dll
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.pdb

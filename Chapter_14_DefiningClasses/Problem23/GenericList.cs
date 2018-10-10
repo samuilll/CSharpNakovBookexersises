@@ -142,6 +142,7 @@ namespace Chapter_14_DefiningClasses.Problem23
         public void Clear()
         {
             this.data = new T[InitialCapacity];
+            this.length = 0;
         }
 
         public override string ToString()

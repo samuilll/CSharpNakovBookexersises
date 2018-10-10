@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -656,27 +666,37 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sami\\.nuget\\packages\\": {}
+    "C:\\Users\\Stella\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CSharpNakovBookexersises\\Chapter_15_TextFiles\\Chapter_15_TextFiles.csproj",
+      "projectUniqueName": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_15_TextFiles\\Chapter_15_TextFiles.csproj",
       "projectName": "Chapter_15_TextFiles",
-      "projectPath": "D:\\CSharpNakovBookexersises\\Chapter_15_TextFiles\\Chapter_15_TextFiles.csproj",
-      "packagesPath": "C:\\Users\\Sami\\.nuget\\packages\\",
-      "outputPath": "D:\\CSharpNakovBookexersises\\Chapter_15_TextFiles\\obj\\",
+      "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_15_TextFiles\\Chapter_15_TextFiles.csproj",
+      "packagesPath": "C:\\Users\\Stella\\.nuget\\packages\\",
+      "outputPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_15_TextFiles\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stella\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -688,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
+              "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

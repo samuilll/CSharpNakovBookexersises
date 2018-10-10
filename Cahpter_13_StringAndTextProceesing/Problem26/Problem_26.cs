@@ -24,7 +24,7 @@ namespace Cahpter_13_StringAndTextProceesing.Problem26
                 string path = this.Reader.ReadLine();
                 string fileName = path.Split('\\').Last();
 
-                string content = manager.ReadFile(path);
+                string content = manager.ReadAllText(path);
                 manager.IsHtmlValidation(fileName);
 
                 StringBuilder sb = new StringBuilder();
