@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Chapter_14_DefiningClasses.Problem23
 {
-    class GenericList<T>:IEnumerable<T>
+   public class GenericList<T>:IEnumerable<T>
         where T:IComparable<T>
     {
         private const int InitialCapacity = 16;
@@ -54,7 +54,7 @@ namespace Chapter_14_DefiningClasses.Problem23
 
         public void Insert(T element, int index)
         {
-            if (index < 0 || index > this.data.Length)
+            if (index < 0 || index > this.length)
             {
                 throw new IndexOutOfRangeException();
             }
@@ -74,6 +74,8 @@ namespace Chapter_14_DefiningClasses.Problem23
                 }
 
                 this.data = tempArray;
+
+              this.length = this.data.Length;
         }
 
         public T this[int index]
@@ -144,7 +146,14 @@ namespace Chapter_14_DefiningClasses.Problem23
 
         public override string ToString()
         {
-            return string.Join(", ",this.data);
+            string result = "No elements to show!";
+
+            if (this.length>0)
+            {
+                result = string.Join(", ", this.data.Take(this.length));
+            }
+
+            return result;
         }
     }
 }
