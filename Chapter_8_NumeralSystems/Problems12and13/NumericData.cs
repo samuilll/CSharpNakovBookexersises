@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Chapter_8_NumeralSystems.Problem12
+namespace Chapter_8_NumeralSystems.Problems12and13
 {
     class NumericData
     {

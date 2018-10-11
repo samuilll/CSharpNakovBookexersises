@@ -1,19 +1,17 @@
-﻿using System;
-using Chapter_1_IntroductionToProgramming.Problem10;
-using Chapter_1_IntroductionToProgramming.Problem11;
-using Utilities;
+﻿using Utilities.Contracts;
 
 namespace Chapter_1_IntroductionToProgramming
 {
+    using Utilities;
+    using Problem10;
+    using Problem11;
+
     class StartUp
     {
         static void Main(string[] args)
         {
-            Problem problem10 = new Problem_10();
-            problem10.Run();
-
-            Problem problem11 = new Problem_11();
-            //problem11.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

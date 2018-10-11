@@ -7,9 +7,16 @@ namespace Utilities
 {
    public  class Writer :IWriter
     {
-        public void WriteLine(object obj)
+        public void WriteLine(object obj = null)
         {
-            Console.WriteLine(obj.ToString());
+            if (obj==null)
+            {
+                Console.WriteLine(); 
+            }
+            else
+            {
+                Console.WriteLine(obj.ToString());
+            }
         }
 
         public void Write(object obj)

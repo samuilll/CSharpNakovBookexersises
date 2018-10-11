@@ -11,17 +11,17 @@ namespace Chapter_2_PrimitiveTypesAndVariables.Problem13
         {
             try
             {
-                Writer.WriteLine("Please enter first number:");
+                Writer.WriteLine("Please enter one number:");
                 int firstNum = int.Parse(Reader.ReadLine());
-                Writer.WriteLine("Please enter second number:");
+                Writer.WriteLine("Please enter one more number:");
                 int secondNum = int.Parse(Reader.ReadLine());
 
                 int temp = firstNum;
                 firstNum = secondNum;
                 secondNum = temp;
 
-                Writer.WriteLine($"First number is equal to: {firstNum}");
-                Writer.WriteLine($"Second number is equal to: {secondNum}");
+                Writer.WriteLine($"First number is changed to: {firstNum}");
+                Writer.WriteLine($"Second number is changed to: {secondNum}");
             }
             catch (Exception e)
             {

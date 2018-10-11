@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "7687c54dea16783b695418e3a93e688a4ca61742"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Chapter_19_Data Structures and Algorithm Complexity/1.0.0": {
+        "dependencies": {
+          "SoftUni.Wintellect.PowerCollections": "1.1.5733.22550",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Chapter_19_Data Structures and Algorithm Complexity.dll": {}
+        }
+      },
+      "SoftUni.Wintellect.PowerCollections/1.1.5733.22550": {
+        "runtime": {
+          "lib/net20/SoftUni.Wintellect.PowerCollections.dll": {
+            "assemblyVersion": "1.1.5733.22550",
+            "fileVersion": "1.1.5733.22550"
+          }
+        }
+      },
+      "Utilities/1.0.0": {
+        "runtime": {
+          "Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chapter_19_Data Structures and Algorithm Complexity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoftUni.Wintellect.PowerCollections/1.1.5733.22550": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KKQy/qCL9t3EGmKRyAYTkMlhcBvYOMfTKyszt8DAGQQ0wZ69lcuq05avT8oHkp+MKxnA6V2wzR9UFApa+ILU4Q==",
+      "path": "softuni.wintellect.powercollections/1.1.5733.22550",
+      "hashPath": "softuni.wintellect.powercollections.1.1.5733.22550.nupkg.sha512"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

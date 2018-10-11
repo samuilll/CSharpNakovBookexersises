@@ -37,7 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_16_LinearDataStruct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_8_NumeralSystems", "Chapter_8_NumeralSystems\Chapter_8_NumeralSystems.csproj", "{909BBEE7-88AE-4CAE-B22D-19068F6F3D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_20_ObjectOrientedProgrammingPrinciples", "Chapter_20_ObjectOrientedProgrammingPrinciples\Chapter_20_ObjectOrientedProgrammingPrinciples.csproj", "{DC4C0327-4159-4C9D-ADC8-A517B5600337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_20_ObjectOrientedProgrammingPrinciples", "Chapter_20_ObjectOrientedProgrammingPrinciples\Chapter_20_ObjectOrientedProgrammingPrinciples.csproj", "{DC4C0327-4159-4C9D-ADC8-A517B5600337}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_22_LambdaExpressionsandLINQ", "Chapter_22_LambdaExpressionsandLINQ\Chapter_22_LambdaExpressionsandLINQ.csproj", "{AE7BCD72-D163-42A8-A26A-1100EAAD72D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19_Data Structures and Algorithm Complexity", "Chapter_19_Data Structures and Algorithm Complexity\Chapter_19_Data Structures and Algorithm Complexity.csproj", "{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{DC4C0327-4159-4C9D-ADC8-A517B5600337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC4C0327-4159-4C9D-ADC8-A517B5600337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC4C0327-4159-4C9D-ADC8-A517B5600337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7BCD72-D163-42A8-A26A-1100EAAD72D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7BCD72-D163-42A8-A26A-1100EAAD72D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7BCD72-D163-42A8-A26A-1100EAAD72D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7BCD72-D163-42A8-A26A-1100EAAD72D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

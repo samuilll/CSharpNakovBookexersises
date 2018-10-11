@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using Chapter_8_NumeralSystems.Problem12;
 
 namespace Chapter_8_NumeralSystems.Problems12and13
 {

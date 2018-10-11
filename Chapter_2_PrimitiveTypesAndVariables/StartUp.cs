@@ -1,7 +1,5 @@
-﻿using System;
-using Chapter_2_PrimitiveTypesAndVariables.Problem11;
-using Chapter_2_PrimitiveTypesAndVariables.Problem13;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_2_PrimitiveTypesAndVariables
 {
@@ -9,12 +7,8 @@ namespace Chapter_2_PrimitiveTypesAndVariables
     {
         static void Main(string[] args)
         {
-            Problem problem13 = new Problem_13();
-           // problem13.Run();
-
-            Problem problem11 = new Problem_11();
-            problem11.Run();
-
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }
