@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using Utilities;
 
 namespace Cahpter_13_StringAndTextProceesing.Problem22

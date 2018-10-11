@@ -11,3 +11,4 @@ E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\De
 E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.csproj.CopyComplete
 E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.dll
 E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.pdb
+E:\Sami\GitHub\CSharpNakovBookexersises\Chapter_3_OperatorsAndExpressions\obj\Debug\netcoreapp2.0\Chapter_3_OperatorsAndExpressions.csprojAssemblyReference.cache

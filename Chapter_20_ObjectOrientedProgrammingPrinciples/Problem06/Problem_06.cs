@@ -1,12 +1,9 @@
-﻿using System;
-using System.Text;
-namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Problem06
+﻿namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Problem06
 {
     using Utilities;
     using Factories;
     using Models;
     using Contracts;
-    using Enums;
     using System;
 
     class Problem_06 : Problem
@@ -15,8 +12,12 @@ namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Problem06
         {
             AnimalFactory animalFactory = new AnimalFactory();
 
+            Writer.WriteLine("Animal factory  demonstration.");
+            Writer.WriteLine();
+
             IAnimal[] animals = new IAnimal[]
-                {
+                {           
+                    //Invoke instances with different constructors
                     animalFactory.Create(typeof(Tomcat),"12","Tom","Male"),
                     animalFactory.Create(typeof(Cat),"9","Tom","Male"),
                     animalFactory.Create(typeof(Tomcat)),

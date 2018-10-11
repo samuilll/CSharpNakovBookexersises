@@ -1,5 +1,5 @@
-﻿using System;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_7_Arrays
 {
@@ -7,11 +7,8 @@ namespace Chapter_7_Arrays
     {
         static void Main(string[] args)
         {
-            Problem problem20 = new Problem_20();
-          // problem20.Run();
-
-            Problem problem6 = new Problem_06();
-            problem6.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Utilities.Contracts
+﻿namespace Utilities.Contracts
 {
    public  interface IRunnable
     {

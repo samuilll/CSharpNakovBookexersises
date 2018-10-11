@@ -8,10 +8,10 @@ namespace Chapter_6_Loops
         //Finding the greatest common diviser of tho numbers
          public override void Run()
         {
-            Console.WriteLine("Please insert first number:");
+            Console.WriteLine("Please insert one integer:");
             int num1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Please insert second number:");
+            Console.WriteLine("Please insert one more integer:");
             int num2 = int.Parse(Console.ReadLine());
 
             int result = FindGreatCommonDiviser(num1, num2);

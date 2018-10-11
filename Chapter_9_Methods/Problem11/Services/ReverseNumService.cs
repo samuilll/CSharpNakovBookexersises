@@ -1,7 +1,5 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using Utilities;
-using Utilities.Contracts;
 
 namespace Chapter_9_Methods.Problem11.Services
 {

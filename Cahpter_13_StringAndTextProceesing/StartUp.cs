@@ -1,7 +1,5 @@
-﻿using System;
-using Cahpter_13_StringAndTextProceesing.Problem22;
-using Cahpter_13_StringAndTextProceesing.Problem26;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Cahpter_13_StringAndTextProceesing
 {
@@ -9,11 +7,8 @@ namespace Cahpter_13_StringAndTextProceesing
     {
         static void Main(string[] args)
         {
-            Problem problem22 = new Problem_22();
-            //problem22.Run();
-
-            Problem problem26 = new Problem_26();
-            problem26.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

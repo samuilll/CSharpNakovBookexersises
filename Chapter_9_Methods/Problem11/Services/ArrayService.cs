@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using Utilities;
-using Utilities.Contracts;
 
 namespace Chapter_9_Methods.Problem11.Services
 {
@@ -47,23 +46,16 @@ namespace Chapter_9_Methods.Problem11.Services
 
         internal decimal[] InsertNonEmptySequence()
         {
-            Writer.WriteLine("Please enter sequence members");
+            Writer.WriteLine("Please enter a sequence of numbers");
 
             decimal[] sequence = null;
 
             while (sequence == null || sequence.Length == 0)
             {
-                try
-                {
                     sequence = this.Reader.ReadLine()
                     .Split(new char[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries)
                     .Select(decimal.Parse)
                     .ToArray();
-                }
-                catch (Exception e)
-                {
-                    Writer.WriteLine(e.Message);
-                }
             }
 
             return sequence;

@@ -1,7 +1,5 @@
-﻿using System;
-using Chapter_16_LinearDataStructures.Problem15;
-using Chapter_16_LinearDataStructures.Problem16;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_16_LinearDataStructures
 {
@@ -9,11 +7,8 @@ namespace Chapter_16_LinearDataStructures
     {
         static void Main(string[] args)
         {
-            Problem problem15 = new Problem_15();
-           // problem15.Run();
-
-            Problem problem16 = new Problem_16();
-            problem16.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

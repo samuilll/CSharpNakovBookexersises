@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using System.Text;
 using Utilities;
 
 namespace Chapter_10_Recusrion
@@ -11,7 +10,7 @@ namespace Chapter_10_Recusrion
     {
         public override void Run()
         {
-            Writer.WriteLine("Please enter the sequence:");
+            Writer.WriteLine("Please enter a sequence of numbers:");
             string[] words = this.Reader.ReadLine()
                 .Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();

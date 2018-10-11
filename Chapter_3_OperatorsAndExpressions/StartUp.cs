@@ -1,7 +1,5 @@
-﻿using System;
-using Chapter_3_OperatorsAndExpressions.Problem10;
-using Chapter_3_OperatorsAndExpressions.Problem14;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_3_OperatorsAndExpressions
 {
@@ -9,11 +7,8 @@ namespace Chapter_3_OperatorsAndExpressions
     {
         static void Main(string[] args)
         {
-            Problem problem14 = new Problem_14();
-            //problem14.Run();
-
-            Problem problem10 = new Problem_10();
-            problem10.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Diagnostics;
-using System.IO;
-using System.Reflection;
-using Utilities;
+﻿using Utilities;
 
 namespace Chapter_12_ExceptionHandling.Problem12
 {
@@ -11,9 +7,7 @@ namespace Chapter_12_ExceptionHandling.Problem12
         public override void Run()
         {
            FileManager manager = new FileManager();
-
-            try
-            {
+            
                 Writer.WriteLine("Please the the path of the file:");
                 string path = this.Reader.ReadLine();
 
@@ -21,12 +15,6 @@ namespace Chapter_12_ExceptionHandling.Problem12
 
                 this.Writer.WriteLine("Content:");
                 this.Writer.WriteLine(content);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-
         }
     }
 }

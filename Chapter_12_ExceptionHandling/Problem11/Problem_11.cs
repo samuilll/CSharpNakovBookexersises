@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
 using Utilities;
 using Utilities.Exceptions;
 
@@ -17,7 +14,8 @@ namespace Chapter_12_ExceptionHandling.Problem11
 
             try
             {
-                Writer.WriteLine("Please the the path of the file:");
+                //??? add files please
+                Writer.WriteLine("Please enter the path of a file:");
                 string path = this.Reader.ReadLine();
                 string fileName = path.Split('\\').Last();
 

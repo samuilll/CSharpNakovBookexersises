@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
 using Utilities;
 
 namespace Chapter_10_Recusrion
@@ -22,18 +19,25 @@ namespace Chapter_10_Recusrion
 
         private  void InspectTheFolder(string path)
         {
-            DirectoryInfo dirToInspect = new DirectoryInfo(path);
-
-            Console.Write($"Path: {path}");
-
-            //show files
-            Writer.WriteLine(string.Join($"{Environment.NewLine}--", dirToInspect.GetFiles().Select(f => f.Name)));
-
-            DirectoryInfo[] subDirsInfo = dirToInspect.GetDirectories();
-
-            foreach (DirectoryInfo subDir in subDirsInfo)
+            try
             {
-                InspectTheFolder(subDir.FullName);
+                DirectoryInfo dirToInspect = new DirectoryInfo(path);
+
+                Console.Write($"Path: {path}");
+
+                //show files
+                Writer.WriteLine(string.Join($"{Environment.NewLine}--", dirToInspect.GetFiles().Select(f => f.Name)));
+
+                DirectoryInfo[] subDirsInfo = dirToInspect.GetDirectories();
+
+                foreach (DirectoryInfo subDir in subDirsInfo)
+                {
+                    InspectTheFolder(subDir.FullName);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
     }

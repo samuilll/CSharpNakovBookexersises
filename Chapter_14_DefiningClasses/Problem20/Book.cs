@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Chapter_14_DefiningClasses.Problem20
+﻿namespace Chapter_14_DefiningClasses.Problem20
 {
     class Book
     {

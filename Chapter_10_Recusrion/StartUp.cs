@@ -1,5 +1,5 @@
-﻿using System;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_10_Recusrion
 {
@@ -7,11 +7,8 @@ namespace Chapter_10_Recusrion
     {
         static void Main(string[] args)
         {
-            Problem_05 problem5 = new Problem_05();
-            problem5.Run();
-
-            Problem_15 problem15 = new Problem_15();
-           // problem15.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

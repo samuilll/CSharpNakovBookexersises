@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Problem06.Factories
 {
@@ -8,7 +6,6 @@ namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Problem06.Factories
     using System.Globalization;
     using System.Linq;
     using System.Reflection;
-    using Enums;
 
     class AnimalFactory : IAnimalFactory
     {

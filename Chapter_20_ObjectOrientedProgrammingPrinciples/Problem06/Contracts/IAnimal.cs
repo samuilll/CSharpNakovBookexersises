@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Problem06.Contracts
+﻿namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Problem06.Contracts
 {
     using Enums;
 

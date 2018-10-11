@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Text;
 using Utilities;
 
 namespace Chapter_11_CreatingAndUsingObjects.Problem9
@@ -24,7 +22,7 @@ namespace Chapter_11_CreatingAndUsingObjects.Problem9
 
         private string EnterTheDate()
         {
-            Writer.WriteLine($"Please insert a date in format \"{Constants.Format}\"");
+            Writer.WriteLine($"Please insert a future date in format \"{Constants.Format}\"");
             string formattedDate = this.Reader.ReadLine();
             return formattedDate;
         }

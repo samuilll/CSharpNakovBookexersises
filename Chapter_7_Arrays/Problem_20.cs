@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Utilities;
-using Utilities.Contracts;
 
 namespace Chapter_7_Arrays
 {
@@ -12,7 +10,7 @@ namespace Chapter_7_Arrays
         // Compute is there is a subset with sum equal to the input target
         public override void Run()
         {
-            Console.WriteLine("Please insert the number sequence");
+            Console.WriteLine("Please insert a sequence of integers");
             List<int> myList = Console.ReadLine()
                 .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)

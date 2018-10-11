@@ -16,26 +16,20 @@ namespace Chapter_9_Methods.Problem9
 
             while (!success)
             {
-                try
-                {
-                    Console.WriteLine("Please enter starting index:");
+
+                    Console.WriteLine($"Please enter starting index in the range[0,{sequence.Length-1}]:");
                     int startIndex = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Please enter last index:");
+                    Console.WriteLine($"Please enter last index up to {sequence.Length-1} and bigger or equal to than {startIndex}:");
                     int endIndex = int.Parse(Console.ReadLine());
 
                     int indexOfMaxNumber = service.FindMaxInRangeIndex(sequence, startIndex, endIndex);
                     decimal result = sequence[indexOfMaxNumber];
 
-                    Console.WriteLine("Value of max member is:");
+                    Console.WriteLine("Value of max member in selected subsequence is:");
                     Console.WriteLine(result.ToString("f2"));
 
                     success = true;
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
             }
 
             decimal[] sortedArray = service.SortDescending(sequence);

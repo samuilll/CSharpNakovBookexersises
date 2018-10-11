@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Utilities;
+﻿using Utilities;
 
 namespace Chapter_4_ConsoleInputOutput
 {
@@ -13,18 +10,18 @@ namespace Chapter_4_ConsoleInputOutput
             double newSum = 0;
             double difference = 0;
 
-            int index = 2;
+                int index = 2;
 
-            do
-            {
-                oldSum = newSum;
-                newSum += 1.0 / index;
-                difference = newSum - oldSum;
+                do
+                {
+                    oldSum = newSum;
+                    newSum += 1.0 / index;
+                    difference = newSum - oldSum;
 
-                index++;
+                    index++;
 
-            } while (difference > 0.001);
-
+                } while (difference > 0.001);
+            
             Writer.WriteLine("The sum of the sequence 1/2 + 1/3 + 1/4...with accuracy of 0.001 is:");
             Writer.WriteLine(newSum);
         }

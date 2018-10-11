@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using Utilities;
 
 namespace Chapter_19_Data_Structures_and_Algorithm_Complexity.Problem6

@@ -1,11 +1,10 @@
 ﻿using System;
 using Chapter_9_Methods.Problem11.Services;
 using Utilities;
-using Utilities.Contracts;
 
 namespace Chapter_9_Methods.Problem11
 {
-     class Problem_11 : Problem
+    class Problem_11 : Problem
     {
       public override  void Run()
         {
@@ -37,7 +36,7 @@ namespace Chapter_9_Methods.Problem11
 
         private static int ChooseAnOption()
         {
-            Console.WriteLine("Please choose one of the possible options:");
+            Console.WriteLine($"For this problem you have three options");
 
             Console.WriteLine("1. For reverse the digits of a number press \"1\"");
             Console.WriteLine("2. For evaluation of the average arithmetic value of an array of integers press \"2\"");

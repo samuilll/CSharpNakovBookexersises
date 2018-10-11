@@ -8,6 +8,7 @@ namespace Chapter_11_CreatingAndUsingObjects.Problem11
         {
             AdvertisementMessagesGenerator advertisementGenerator = new AdvertisementMessagesGenerator();
 
+            Writer.WriteLine("Random message generator says:");
             Writer.WriteLine(advertisementGenerator.Generate());
         }
     }

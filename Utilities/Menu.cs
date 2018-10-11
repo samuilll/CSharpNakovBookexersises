@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 using Utilities.Contracts;
 
 namespace Utilities
@@ -33,47 +31,50 @@ namespace Utilities
             string firstProblemName = types[0].Name;
             string secondProblemName = types[1].Name;
 
-        
-            while (true)
-            {
-                Writer.WriteLine("Please choose one of the options:");
-                Writer.WriteLine($"1.To start {firstProblemName} please press \"1\"");
-                Writer.WriteLine($"2.To start {secondProblemName} please press \"2\"");
-                Writer.WriteLine($"3.To exit the program press \"3\"");
 
 
-                int choice = int.Parse(Reader.ReadLine());
+                    Writer.WriteLine("Please choose one of the options:");
+                    Writer.WriteLine($"1.To start {firstProblemName} please press \"1\"");
+                    Writer.WriteLine($"2.To start {secondProblemName} please press \"2\"");
+                    Writer.WriteLine($"3.To exit the program press \"3\"");
 
-                switch (choice)
-                {
-                    case 1:
+                    try
                     {
-                        var problem = (Problem)Activator.CreateInstance(firstProblem);
-                        problem.Run();
-                        Writer.WriteLine();
-                        break;
-                    }
-                    case 2:
-                    {
-                        var problem = (Problem)Activator.CreateInstance(secondProblem);
-                        problem.Run();
-                        Writer.WriteLine();
-                        break;
-                    }
-                    case 3:
-                    {
-                        Environment.Exit(1);
-                        break;
-                    }
-                    default:
-                    {
-                        Writer.WriteLine("Input must be in  range [1,3] ");
-                        Writer.WriteLine();
-                        break;
-                    }
-                }
-            }
+                        int choice = int.Parse(Reader.ReadLine());
 
+                        switch (choice)
+                        {
+                            case 1:
+                            {
+                                var problem = (Problem)Activator.CreateInstance(firstProblem);
+                                problem.Run();
+                                Writer.WriteLine();
+                                break;
+                            }
+                            case 2:
+                            {
+                                var problem = (Problem)Activator.CreateInstance(secondProblem);
+                                problem.Run();
+                                Writer.WriteLine();
+                                break;
+                            }
+                            case 3:
+                            {
+                                Environment.Exit(1);
+                                break;
+                            }
+                            default:
+                            {
+                                Writer.WriteLine("Input must be in  range [1,3] ");
+                                Writer.WriteLine();
+                                break;
+                            }
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }                     
         }
     }
 }

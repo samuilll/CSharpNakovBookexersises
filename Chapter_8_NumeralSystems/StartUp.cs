@@ -1,5 +1,4 @@
-﻿using System;
-using Chapter_8_NumeralSystems.Problems12and13;
+﻿using Chapter_8_NumeralSystems.Problems12and13;
 using Utilities;
 
 namespace Chapter_8_NumeralSystems

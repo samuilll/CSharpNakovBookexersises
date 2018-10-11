@@ -1,7 +1,5 @@
-﻿using System;
-using Chapter_15_TextFiles.Problem12;
-using Chapter_15_TextFiles.Problem13;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_15_TextFiles
 {
@@ -9,11 +7,8 @@ namespace Chapter_15_TextFiles
     {
         static void Main(string[] args)
         {
-            Problem problem12 = new Problem_12();
-           // problem12.Run();
-
-            Problem problem13 = new Problem_13();
-            problem13.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

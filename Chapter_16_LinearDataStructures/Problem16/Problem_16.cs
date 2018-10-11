@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Utilities;
 
 namespace Chapter_16_LinearDataStructures.Problem16

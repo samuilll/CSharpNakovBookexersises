@@ -37,6 +37,8 @@ namespace Chapter_15_TextFiles.Problem13
             string resultAsString = GetResultAsString(resultAsDictionary);
 
             manager.WriteAllText(ResultFilePath, resultAsString);
+
+            Writer.WriteLine("Operations was successfully completed. You can see the files");
         }
 
         private static string GetResultAsString(Dictionary<string, int> resultData)

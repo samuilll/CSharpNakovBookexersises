@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Utilities;
 
 namespace Chapter_2_PrimitiveTypesAndVariables.Problem11

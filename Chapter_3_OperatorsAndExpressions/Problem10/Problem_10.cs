@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Utilities;
 
 namespace Chapter_3_OperatorsAndExpressions.Problem10
@@ -10,8 +8,6 @@ namespace Chapter_3_OperatorsAndExpressions.Problem10
     {
         public override void Run()
         {
-            try
-            {
                 int number = EnterTheNumber();
 
                 ValidateCountOfNumberDigits(number);
@@ -19,13 +15,7 @@ namespace Chapter_3_OperatorsAndExpressions.Problem10
                 PrintSumOfTheDigits(number);
                 PrintTheReversedNumber(number);
                 PrintNumberWithFirstAndLastDigitsReversed(number);
-                PrintTheNumberWithSecondAndThirdDigitsReversed(number);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-    
+                PrintTheNumberWithSecondAndThirdDigitsReversed(number);   
         }
 
         private static void ValidateCountOfNumberDigits(int number)

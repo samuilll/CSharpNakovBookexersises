@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Enums
+﻿namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Enums
 {
     enum GenderType
     {

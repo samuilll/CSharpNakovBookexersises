@@ -1,7 +1,5 @@
-﻿using System;
-using Chapter_22_LambdaExpressionsandLINQ.Problem6;
-using Chapter_22_LambdaExpressionsandLINQ.Problem7;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_22_LambdaExpressionsandLINQ
 {
@@ -9,11 +7,8 @@ namespace Chapter_22_LambdaExpressionsandLINQ
     {
         static void Main(string[] args)
         {
-            Problem problem6 = new Problem_6();
-             problem6.Run();
-
-            Problem problem7 = new Problem_7();
-           // problem7.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

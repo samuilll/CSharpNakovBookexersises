@@ -1,5 +1,5 @@
-﻿using Chapter_5_ConditionalStatements.Problems;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_5_ConditionalStatements
 {
@@ -7,11 +7,8 @@ namespace Chapter_5_ConditionalStatements
     {
         static void Main(string[] args)
         {
-            Problem problem10 = new Problem_10();
-            //problem10.Run();
-
-            Problem problem8 = new Problem_08();
-            problem8.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

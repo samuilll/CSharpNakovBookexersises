@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Chapter_19_Data_Structures_and_Algorithm_Complexity.Problem6;
+﻿using System.Collections.Generic;
 using Utilities;
 
 namespace Chapter_19_Data_Structures_and_Algorithm_Complexity.Problem3
@@ -27,6 +23,7 @@ namespace Chapter_19_Data_Structures_and_Algorithm_Complexity.Problem3
 
         private void DisplayResult(SortedDictionary<string, SortedSet<Student>> dataStorage)
         {
+            Writer.WriteLine("Sorted info:");
             foreach (KeyValuePair<string, SortedSet<Student>> courseStudentsSetPair in dataStorage)
             {
                 string course = courseStudentsSetPair.Key;

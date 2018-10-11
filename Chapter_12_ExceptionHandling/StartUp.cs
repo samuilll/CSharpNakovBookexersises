@@ -1,7 +1,5 @@
-﻿using System;
-using Chapter_12_ExceptionHandling.Problem11;
-using Chapter_12_ExceptionHandling.Problem12;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_12_ExceptionHandling
 {
@@ -9,11 +7,8 @@ namespace Chapter_12_ExceptionHandling
     {
         static void Main(string[] args)
         {
-            Problem problem12 = new Problem_12();
-            problem12.Run();
-
-            Problem problem11 = new Problem_11();
-           // problem11.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

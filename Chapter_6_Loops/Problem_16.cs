@@ -28,7 +28,7 @@ namespace Chapter_6_Loops
                 int numToPrint = list[randomizer.Next(list.Count)];
                 list.Remove(numToPrint);
 
-                Console.WriteLine(numToPrint);
+                Console.Write($"{numToPrint} ");
             }
         }
     }

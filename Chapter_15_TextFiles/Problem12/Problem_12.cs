@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Utilities;
 
 namespace Chapter_15_TextFiles.Problem12
@@ -35,6 +33,8 @@ namespace Chapter_15_TextFiles.Problem12
             RemoveNeedlessWords(firstFileDataLines, wordsToDelete);
 
             manager.WriteAllLines(FirstFilePath, firstFileDataLines);
+
+            Writer.WriteLine("Operations was successfully completed. You can see the files");
         }
 
         private static string[] GetNeedlessWords(string secondFileAllText)

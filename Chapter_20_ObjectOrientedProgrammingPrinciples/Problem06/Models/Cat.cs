@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Problem06.Models
+﻿namespace Chapter_20_ObjectOrientedProgrammingPrinciples.Problem06.Models
 {
     using Enums;
 

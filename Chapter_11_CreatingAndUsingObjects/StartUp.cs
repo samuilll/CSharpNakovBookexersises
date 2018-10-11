@@ -1,7 +1,5 @@
-﻿using System;
-using Chapter_11_CreatingAndUsingObjects.Problem11;
-using Chapter_11_CreatingAndUsingObjects.Problem9;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_11_CreatingAndUsingObjects
 {
@@ -9,11 +7,8 @@ namespace Chapter_11_CreatingAndUsingObjects
     {
         static void Main(string[] args)
         {
-            Problem problem11 = new Problem_11();
-           // problem11.Run();
-
-            Problem problem9 = new Problem_9();
-            problem9.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

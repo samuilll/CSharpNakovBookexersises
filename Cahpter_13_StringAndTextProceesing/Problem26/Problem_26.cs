@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
-using System.Text.RegularExpressions;
 using Utilities;
 
 namespace Cahpter_13_StringAndTextProceesing.Problem26
 {
     class Problem_26 : Problem
     {
-
+        //please add default paths
         public override void Run()
         {
             FileManager manager = new FileManager();

@@ -1,4 +1,5 @@
 ﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_6_Loops
 {
@@ -6,11 +7,8 @@ namespace Chapter_6_Loops
     {
         static void Main(string[] args)
         {
-            Problem problem17 = new Problem_17();
-          // problem17.Run();
-
-            Problem problem16 = new Problem_16();
-            problem16.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

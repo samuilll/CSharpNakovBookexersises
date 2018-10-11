@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Utilities;
+﻿using Utilities;
 
 namespace Chapter_1_IntroductionToProgramming.Problem10
 {

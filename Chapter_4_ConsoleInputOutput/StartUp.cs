@@ -1,5 +1,5 @@
-﻿using System;
-using Utilities;
+﻿using Utilities;
+using Utilities.Contracts;
 
 namespace Chapter_4_ConsoleInputOutput
 {
@@ -7,11 +7,8 @@ namespace Chapter_4_ConsoleInputOutput
     {
         static void Main(string[] args)
         {
-            Problem problem13 = new Problem_13();
-           // problem13.Run();
-
-            Problem problem12 = new Problem_12();
-            problem12.Run();
+            IMenu menu = new Menu();
+            menu.Display();
         }
     }
 }

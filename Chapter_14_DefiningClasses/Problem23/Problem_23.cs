@@ -3,7 +3,7 @@ using Chapter_14_DefiningClasses.Problem23.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using Microsoft.Extensions.DependencyInjection;
 using Utilities;
 
 namespace Chapter_14_DefiningClasses.Problem23
@@ -12,10 +12,12 @@ namespace Chapter_14_DefiningClasses.Problem23
     {
         private CommandInterpreter interpreter;
 
-        public Problem_23(IServiceProvider provider)
+        public Problem_23()
         {
+            IServiceProvider provider = ConfigureServices();
             this.interpreter = new CommandInterpreter(provider);
         }
+
         public override void Run()
         {
             DisplayMenu();
@@ -59,6 +61,17 @@ namespace Chapter_14_DefiningClasses.Problem23
             Writer.WriteLine("5. View item (index) (enter '5', press 'enter' and after that enter index)");
             Writer.WriteLine("6. View the whole sequence (enter '6')");
             Writer.WriteLine("7. Exit (enter 7)");
+        }
+
+        private  IServiceProvider ConfigureServices()
+        {
+            IServiceCollection services = new ServiceCollection();
+
+            services.AddSingleton<GenericList<string>>(new GenericList<string>());
+
+            IServiceProvider serviceProvider = services.BuildServiceProvider();
+
+            return serviceProvider;
         }
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Chapter_11_CreatingAndUsingObjects.Problem9
+﻿namespace Chapter_11_CreatingAndUsingObjects.Problem9
 {
     class Constants
     {

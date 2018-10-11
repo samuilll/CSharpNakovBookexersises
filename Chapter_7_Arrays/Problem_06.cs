@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Utilities;
-using Utilities.Contracts;
 
 namespace Chapter_7_Arrays
 {
@@ -12,7 +10,7 @@ namespace Chapter_7_Arrays
         //Search the longest increasing subset in an array
         public override void Run()
         {
-            Console.WriteLine("Please insert sequence:");
+            Console.WriteLine("Please insert a sequence of integers");
 
             int[] numbers = Console.ReadLine()
                 .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)

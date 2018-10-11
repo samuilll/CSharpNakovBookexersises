@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Chapter_14_DefiningClasses.Problem23.Enums
+﻿namespace Chapter_14_DefiningClasses.Problem23.Enums
 {
     enum CommandsEnum
     {

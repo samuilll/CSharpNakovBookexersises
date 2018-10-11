@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Utilities;
 
 namespace Chapter_3_OperatorsAndExpressions.Problem14
@@ -9,19 +7,12 @@ namespace Chapter_3_OperatorsAndExpressions.Problem14
     {
         public override void Run()
         {
-            try
-            {
+
                 int number = EnterTheNumber();
 
                 bool isPrime = IsPrime(number);
 
                 PrintTheResult(number, isPrime);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-
         }
 
         private void PrintTheResult(int number, bool isPrime)
@@ -31,7 +22,7 @@ namespace Chapter_3_OperatorsAndExpressions.Problem14
 
         private int EnterTheNumber()
         {
-            Writer.WriteLine("Please enter the number you want to check:");
+            Writer.WriteLine("Please enter the number you want to check (prime or not prime):");
             return int.Parse(Reader.ReadLine());
         }
 
