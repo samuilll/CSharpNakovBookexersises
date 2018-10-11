@@ -680,23 +680,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stella\\.nuget\\packages\\": {},
+    "C:\\Users\\Sami\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_12_ExceptionHandling\\Chapter_12_ExceptionHandling.csproj",
+      "projectUniqueName": "D:\\CSharpNakovBookexersises\\Chapter_12_ExceptionHandling\\Chapter_12_ExceptionHandling.csproj",
       "projectName": "Chapter_12_ExceptionHandling",
-      "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_12_ExceptionHandling\\Chapter_12_ExceptionHandling.csproj",
-      "packagesPath": "C:\\Users\\Stella\\.nuget\\packages\\",
-      "outputPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_12_ExceptionHandling\\obj\\",
+      "projectPath": "D:\\CSharpNakovBookexersises\\Chapter_12_ExceptionHandling\\Chapter_12_ExceptionHandling.csproj",
+      "packagesPath": "C:\\Users\\Sami\\.nuget\\packages\\",
+      "outputPath": "D:\\CSharpNakovBookexersises\\Chapter_12_ExceptionHandling\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Stella\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -709,8 +709,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
-              "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
+            "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
             }
           }
         }

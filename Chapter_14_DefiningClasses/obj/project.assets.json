@@ -730,23 +730,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stella\\.nuget\\packages\\": {},
+    "C:\\Users\\Sami\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_14_DefiningClasses\\Chapter_14_DefiningClasses.csproj",
+      "projectUniqueName": "D:\\CSharpNakovBookexersises\\Chapter_14_DefiningClasses\\Chapter_14_DefiningClasses.csproj",
       "projectName": "Chapter_14_DefiningClasses",
-      "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_14_DefiningClasses\\Chapter_14_DefiningClasses.csproj",
-      "packagesPath": "C:\\Users\\Stella\\.nuget\\packages\\",
-      "outputPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Chapter_14_DefiningClasses\\obj\\",
+      "projectPath": "D:\\CSharpNakovBookexersises\\Chapter_14_DefiningClasses\\Chapter_14_DefiningClasses.csproj",
+      "packagesPath": "C:\\Users\\Sami\\.nuget\\packages\\",
+      "outputPath": "D:\\CSharpNakovBookexersises\\Chapter_14_DefiningClasses\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Stella\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -759,8 +759,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
-              "projectPath": "E:\\Sami\\GitHub\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
+            "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\CSharpNakovBookexersises\\Utilities\\Utilities.csproj"
             }
           }
         }

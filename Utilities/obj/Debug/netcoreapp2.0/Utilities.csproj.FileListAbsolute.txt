@@ -15,3 +15,4 @@ E:\Sami\GitHub\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilit
 E:\Sami\GitHub\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.AssemblyInfo.cs
 E:\Sami\GitHub\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.dll
 E:\Sami\GitHub\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.pdb
+D:\CSharpNakovBookexersises\Utilities\obj\Debug\netcoreapp2.0\Utilities.csprojAssemblyReference.cache

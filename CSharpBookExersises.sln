@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_1_IntroductionToPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_16_LinearDataStructures", "Chapter_16_LinearDataStructures\Chapter_16_LinearDataStructures.csproj", "{6F516148-8226-4F4A-8089-A16AC314065A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_8_NumeralSystems", "Chapter_8_NumeralSystems\Chapter_8_NumeralSystems.csproj", "{909BBEE7-88AE-4CAE-B22D-19068F6F3D98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_8_NumeralSystems", "Chapter_8_NumeralSystems\Chapter_8_NumeralSystems.csproj", "{909BBEE7-88AE-4CAE-B22D-19068F6F3D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_20_ObjectOrientedProgrammingPrinciples", "Chapter_20_ObjectOrientedProgrammingPrinciples\Chapter_20_ObjectOrientedProgrammingPrinciples.csproj", "{DC4C0327-4159-4C9D-ADC8-A517B5600337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{909BBEE7-88AE-4CAE-B22D-19068F6F3D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{909BBEE7-88AE-4CAE-B22D-19068F6F3D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{909BBEE7-88AE-4CAE-B22D-19068F6F3D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4C0327-4159-4C9D-ADC8-A517B5600337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4C0327-4159-4C9D-ADC8-A517B5600337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4C0327-4159-4C9D-ADC8-A517B5600337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4C0327-4159-4C9D-ADC8-A517B5600337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
