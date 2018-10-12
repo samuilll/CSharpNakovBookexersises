@@ -3,9 +3,8 @@ using Utilities;
 
 namespace Chapter_9_Methods.Problem11.Services
 {
-    class ReverseNumService:Problem
+    class ReverseNumService : Problem
     {
-
         public override void Run()
         {
             decimal num = this.InsertNonNegativeValue();
@@ -32,7 +31,7 @@ namespace Chapter_9_Methods.Problem11.Services
 
             decimal value = 0;
 
-            while (!decimal.TryParse(valueAsString, out value) || value<0)
+            while (!decimal.TryParse(valueAsString, out value) || value < 0)
             {
                 Writer.WriteLine("Invalid value!");
 

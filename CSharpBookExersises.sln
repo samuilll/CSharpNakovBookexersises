@@ -47,8 +47,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_17_TreesAndGraphs",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_18_DictionariesHashTablesAndSets", "Chapter_18_DictionariesHashTablesAndSets\Chapter_18_DictionariesHashTablesAndSets.csproj", "{F02BC25C-3648-4DD9-9DE0-E9FFC7D796EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_24_PricticalExam_I", "Chapter_24_PricticalExam_I\Chapter_24_PricticalExam_I.csproj", "{86DF0F56-D8A9-429A-BD2F-EB8CA5CBF6AF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,10 +141,6 @@ Global
 		{F02BC25C-3648-4DD9-9DE0-E9FFC7D796EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F02BC25C-3648-4DD9-9DE0-E9FFC7D796EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F02BC25C-3648-4DD9-9DE0-E9FFC7D796EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{86DF0F56-D8A9-429A-BD2F-EB8CA5CBF6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86DF0F56-D8A9-429A-BD2F-EB8CA5CBF6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86DF0F56-D8A9-429A-BD2F-EB8CA5CBF6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86DF0F56-D8A9-429A-BD2F-EB8CA5CBF6AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

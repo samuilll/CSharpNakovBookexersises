@@ -4,15 +4,14 @@ using Utilities;
 
 namespace Chapter_9_Methods.Problem11.Services
 {
-    class LinealEquationService:Problem
+    class LinealEquationService : Problem
     {
-
         public override void Run()
         {
             Writer.WriteLine("Please enter equation to evaluate (it must be of type a*x+b=0 where x is unknown):");
 
             string input = null;
-            Regex  regex = new Regex("(?<firstNum>[-0-9]+)\\*[A-Z-a-z]\\+(?<secondNum>[0-9]+)=0");
+            Regex regex = new Regex("(?<firstNum>[-0-9]+)\\*[A-Z-a-z]\\+(?<secondNum>[0-9]+)=0");
             bool isNonZero = true;
 
             do
@@ -46,8 +45,6 @@ namespace Chapter_9_Methods.Problem11.Services
                     Writer.WriteLine(e.Message);
                 }
             } while (!regex.IsMatch(input) || !isNonZero);
-
-
         }
     }
 }

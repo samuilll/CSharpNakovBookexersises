@@ -2,7 +2,7 @@
 
 namespace Chapter_19_Data_Structures_and_Algorithm_Complexity.Problem3
 {
-    class Student:IComparable<Student>
+    class Student : IComparable<Student>
     {
         public Student(string firstName, string lastName)
         {
@@ -10,14 +10,14 @@ namespace Chapter_19_Data_Structures_and_Algorithm_Complexity.Problem3
             LastName = lastName;
         }
 
-        public string FirstName { get;private set; }
+        public string FirstName { get; private set; }
 
-        public string LastName { get;private set; }
+        public string LastName { get; private set; }
 
         public int CompareTo(Student other)
         {
-          int  result = $"{this.LastName} {this.FirstName}".CompareTo($"{other.LastName} {other.FirstName}");
-         
+            int result = $"{this.LastName} {this.FirstName}".CompareTo($"{other.LastName} {other.FirstName}");
+
             return result;
         }
 

@@ -5,7 +5,7 @@ using Utilities;
 
 namespace Chapter_7_Arrays
 {
-    class Problem_06:Problem
+    class Problem_06 : Problem
     {
         //Search the longest increasing subset in an array
         public override void Run()
@@ -13,7 +13,7 @@ namespace Chapter_7_Arrays
             Console.WriteLine("Please insert a sequence of integers");
 
             int[] numbers = Console.ReadLine()
-                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
 
@@ -30,7 +30,7 @@ namespace Chapter_7_Arrays
             {
                 var hasChange = false;
 
-                for (int secondLoopIndex = 0; secondLoopIndex < firstLoopIndex; secondLoopIndex++)  
+                for (int secondLoopIndex = 0; secondLoopIndex < firstLoopIndex; secondLoopIndex++)
                 {
                     int num1 = numbers[firstLoopIndex];
                     int num2 = numbers[secondLoopIndex];
@@ -49,6 +49,7 @@ namespace Chapter_7_Arrays
                         }
                     }
                 }
+
                 if (!hasChange)
                 {
                     len[firstLoopIndex] = 1;

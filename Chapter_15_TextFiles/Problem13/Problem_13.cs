@@ -6,7 +6,7 @@ using Utilities;
 
 namespace Chapter_15_TextFiles.Problem13
 {
-    class Problem_13:Problem
+    class Problem_13 : Problem
     {
         private const string FileToReadPath = "../../../Problem13/words.txt";
 
@@ -20,7 +20,7 @@ namespace Chapter_15_TextFiles.Problem13
             FileManager manager = new FileManager();
 
             string[] fileToReadWords = null;
-            string[] fileToInspectWords = null;       
+            string[] fileToInspectWords = null;
 
             try
             {
@@ -32,7 +32,7 @@ namespace Chapter_15_TextFiles.Problem13
                 Console.WriteLine(e.Message);
             }
 
-            Dictionary<string, int> resultAsDictionary  = CountOccurencesOfTheWords(fileToReadWords, fileToInspectWords);
+            Dictionary<string, int> resultAsDictionary = CountOccurencesOfTheWords(fileToReadWords, fileToInspectWords);
 
             string resultAsString = GetResultAsString(resultAsDictionary);
 
@@ -53,9 +53,10 @@ namespace Chapter_15_TextFiles.Problem13
             return sb.ToString();
         }
 
-        private static Dictionary<string,int> CountOccurencesOfTheWords(string[] fileToReadWords, string[] fileToInspectWords)
+        private static Dictionary<string, int> CountOccurencesOfTheWords(string[] fileToReadWords,
+            string[] fileToInspectWords)
         {
-            Dictionary<string,int> resultData = new Dictionary<string, int>();
+            Dictionary<string, int> resultData = new Dictionary<string, int>();
 
             foreach (string wordToRead in fileToReadWords)
             {
@@ -67,6 +68,7 @@ namespace Chapter_15_TextFiles.Problem13
                         {
                             resultData[wordToRead] = 0;
                         }
+
                         resultData[wordToRead] += 1;
                     }
                 }
@@ -79,7 +81,7 @@ namespace Chapter_15_TextFiles.Problem13
         {
             return string
                 .Join(Environment.NewLine, manager.ReadAllLines(FileToInspectPath))
-                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
         }
 
@@ -87,7 +89,7 @@ namespace Chapter_15_TextFiles.Problem13
         {
             return string
                 .Join(Environment.NewLine, manager.ReadAllLines(FileToReadPath))
-                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
         }
     }

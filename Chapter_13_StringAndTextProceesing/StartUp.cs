@@ -1,7 +1,7 @@
 ﻿using Utilities;
 using Utilities.Contracts;
 
-namespace Cahpter_13_StringAndTextProceesing
+namespace Chapter_13_StringAndTextProceesing
 {
     class StartUp
     {

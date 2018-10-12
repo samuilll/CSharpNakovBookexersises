@@ -34,13 +34,13 @@ namespace Chapter_15_TextFiles.Problem12
 
             manager.WriteAllLines(fileToInspectPath, fileToInspectLinesDataLines);
 
-            Writer.WriteLine("Operations was successfully completed. You can see the files");
+            Writer.WriteLine("All words from file \"words.txt\" was successfully deleted from file \"text.txt\"");
         }
 
         private static string[] GetNeedlessWords(string content)
         {
             return content
-                .Split(new char[] { '\r','\n','.',',',':',';',' '}, StringSplitOptions.RemoveEmptyEntries)
+                .Split(new char[] {'\r', '\n', '.', ',', ':', ';', ' '}, StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
         }
 

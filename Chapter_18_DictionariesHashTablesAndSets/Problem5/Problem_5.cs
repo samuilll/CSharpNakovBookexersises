@@ -6,7 +6,7 @@ using Utilities;
 
 namespace Chapter_18_DictionariesHashTablesAndSets.Problem5
 {
-    class Problem_5:Problem
+    class Problem_5 : Problem
     {
         private const string Path = "../../../text.txt";
 
@@ -17,7 +17,7 @@ namespace Chapter_18_DictionariesHashTablesAndSets.Problem5
             Dictionary<string, int> dataStorage = new Dictionary<string, int>();
 
             string[] words = manager.ReadAllText(Path)
-                .Split(new string[] { Environment.NewLine, " " }, StringSplitOptions.RemoveEmptyEntries)
+                .Split(new string[] {Environment.NewLine, " "}, StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
 
             StoreDataIntoTheStorage(dataStorage, words);

@@ -12,15 +12,16 @@ namespace Chapter_14_DefiningClasses.Problem23.Commands
         {
             this.data = data;
         }
+
         public override string Execute()
         {
             string element = this.Arguments[0];
 
             int index = int.Parse(this.Arguments[1]);
 
-            this.data.Insert(element,index);
+            this.data.Insert(element, index);
 
-            return string.Format(Success,element,index);
+            return string.Format(Success, element, index);
         }
     }
 }

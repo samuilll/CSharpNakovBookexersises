@@ -3,13 +3,13 @@ using Utilities.Contracts;
 
 namespace Utilities
 {
-   public  class Writer :IWriter
+    public class Writer : IWriter
     {
         public void WriteLine(object obj = null)
         {
-            if (obj==null)
+            if (obj == null)
             {
-                Console.WriteLine(); 
+                Console.WriteLine();
             }
             else
             {

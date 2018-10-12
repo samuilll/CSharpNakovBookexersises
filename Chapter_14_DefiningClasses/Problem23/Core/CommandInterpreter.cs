@@ -40,7 +40,7 @@ namespace Chapter_14_DefiningClasses.Problem23.Core
             objectsParams[objectsParams.Length - 1] = args.Skip(1).ToList();
 
             //Creeate an instance of the command
-            Command command = (Command)Activator.CreateInstance(type, objectsParams);
+            Command command = (Command) Activator.CreateInstance(type, objectsParams);
 
             //Execute command and return the result
             return command.Execute();

@@ -15,7 +15,7 @@ namespace Chapter_14_DefiningClasses.Problem20
 
             Book bookToAdd = new Book("slaughterhouse 5", "Kurt Vonegut", 1971, "8768767676");
             library.AddBook(bookToAdd);
-            
+
             Writer.WriteLine("Library after loading some data and few operations:");
             Writer.WriteLine();
             foreach (Book book in library.Books)

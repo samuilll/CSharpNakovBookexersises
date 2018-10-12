@@ -3,10 +3,10 @@ using Utilities;
 
 namespace Chapter_6_Loops
 {
-     class Problem_17 : Problem
+    class Problem_17 : Problem
     {
         //Finding the greatest common diviser of tho numbers
-         public override void Run()
+        public override void Run()
         {
             Console.WriteLine("Please insert one integer:");
             int num1 = int.Parse(Console.ReadLine());
@@ -22,18 +22,18 @@ namespace Chapter_6_Loops
 
         private int FindGreatCommonDiviser(int num1, int num2)
         {
-                while (num1 != 0 && num2 != 0)
-                {
-                    if (num1 > num2)
-                        num1 %= num2;
-                    else
-                        num2 %= num1;
-                }
-
-                if (num1 == 0)
-                    return num2;
+            while (num1 != 0 && num2 != 0)
+            {
+                if (num1 > num2)
+                    num1 %= num2;
                 else
-                    return num1;            
+                    num2 %= num1;
+            }
+
+            if (num1 == 0)
+                return num2;
+            else
+                return num1;
         }
     }
 }

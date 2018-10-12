@@ -7,8 +7,8 @@ namespace Chapter_14_DefiningClasses.Problem23.Commands
         private const string Success = "Element {0} was added!";
         private GenericList<string> data;
 
-        public AddCommand(GenericList<string> data,List<string> args)
-            :base(args)
+        public AddCommand(GenericList<string> data, List<string> args)
+            : base(args)
         {
             this.data = data;
         }

@@ -6,7 +6,7 @@ using Utilities;
 
 namespace Chapter_10_Recusrion
 {
-    class Problem_05:Problem
+    class Problem_05 : Problem
     {
         public override void Run()
         {
@@ -18,7 +18,7 @@ namespace Chapter_10_Recusrion
             List<string> output = new List<string>();
 
             string[] bytesStringArray = CreateByteArrayAsStringArray(words.Length);
-       
+
             for (int i = 0; i < bytesStringArray.Length; i++)
             {
                 AddCurrentCombinationInTheOutput(words, output, bytesStringArray, i);
@@ -28,7 +28,8 @@ namespace Chapter_10_Recusrion
             Writer.WriteLine(string.Join(", ", output));
         }
 
-        private static void AddCurrentCombinationInTheOutput(string[] words, List<string> output, string[] bytesStringArray, int i)
+        private static void AddCurrentCombinationInTheOutput(string[] words, List<string> output,
+            string[] bytesStringArray, int i)
         {
             List<string> currentCombination = new List<string>();
 
@@ -49,7 +50,7 @@ namespace Chapter_10_Recusrion
 
         private string[] CreateByteArrayAsStringArray(int wordsLength)
         {
-            int byteStringArrayLength = (int)Math.Pow(2, wordsLength);
+            int byteStringArrayLength = (int) Math.Pow(2, wordsLength);
 
             string[] bytesStringArray = new string[byteStringArrayLength];
 

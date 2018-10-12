@@ -1,7 +1,7 @@
 ﻿namespace Utilities.Contracts
 {
-   public interface IReader
-   {
-       string ReadLine();
-   }
+    public interface IReader
+    {
+        string ReadLine();
+    }
 }

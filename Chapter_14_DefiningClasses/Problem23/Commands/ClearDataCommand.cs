@@ -12,6 +12,7 @@ namespace Chapter_14_DefiningClasses.Problem23.Commands
         {
             this.data = data;
         }
+
         public override string Execute()
         {
             this.data.Clear();

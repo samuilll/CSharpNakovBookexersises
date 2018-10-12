@@ -6,9 +6,8 @@ using Utilities;
 
 namespace Chapter_16_LinearDataStructures.Problem16
 {
-    class Problem_16:Problem
+    class Problem_16 : Problem
     {
-
         public override void Run()
         {
             Queue<string> queue = new Queue<string>();
@@ -30,12 +29,12 @@ namespace Chapter_16_LinearDataStructures.Problem16
                     foreach (string innerPath in currentDirInfo.GetDirectories().Select(d => d.FullName))
                     {
                         queue.Enqueue(innerPath);
-                    }               
+                    }
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
-                }                
+                }
             }
         }
     }

@@ -2,7 +2,7 @@
 
 namespace Chapter_11_CreatingAndUsingObjects.Problem11
 {
-    class Problem_11:Problem
+    class Problem_11 : Problem
     {
         public override void Run()
         {

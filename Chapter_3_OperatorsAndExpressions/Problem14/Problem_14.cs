@@ -3,16 +3,15 @@ using Utilities;
 
 namespace Chapter_3_OperatorsAndExpressions.Problem14
 {
-    class Problem_14:Problem
+    class Problem_14 : Problem
     {
         public override void Run()
         {
+            int number = EnterTheNumber();
 
-                int number = EnterTheNumber();
+            bool isPrime = IsPrime(number);
 
-                bool isPrime = IsPrime(number);
-
-                PrintTheResult(number, isPrime);
+            PrintTheResult(number, isPrime);
         }
 
         private void PrintTheResult(int number, bool isPrime)
@@ -32,7 +31,7 @@ namespace Chapter_3_OperatorsAndExpressions.Problem14
             if (number == 2) return true;
             if (number % 2 == 0) return false;
 
-            var boundary = (int)Math.Floor(Math.Sqrt(number));
+            var boundary = (int) Math.Floor(Math.Sqrt(number));
 
             for (int i = 3; i <= boundary; i += 2)
             {

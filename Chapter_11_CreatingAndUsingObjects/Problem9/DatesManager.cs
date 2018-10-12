@@ -17,14 +17,15 @@ namespace Chapter_11_CreatingAndUsingObjects.Problem9
 
         public bool IsDayHoliday(DateTime date)
         {
-            if (date.DayOfWeek==DayOfWeek.Sunday)
+            if (date.DayOfWeek == DayOfWeek.Sunday)
             {
                 return true;
             }
 
-            if (date.DayOfWeek==DayOfWeek.Saturday)
+            if (date.DayOfWeek == DayOfWeek.Saturday)
             {
-                bool isWorkingSaturday = this.workingSaturdays.Any(ws => ws.Day==date.Day&& ws.Month==date.Month&&ws.Year==date.Year);
+                bool isWorkingSaturday = this.workingSaturdays.Any(ws =>
+                    ws.Day == date.Day && ws.Month == date.Month && ws.Year == date.Year);
 
                 if (isWorkingSaturday)
                 {
@@ -34,7 +35,7 @@ namespace Chapter_11_CreatingAndUsingObjects.Problem9
                 return true;
             }
 
-            if (holidays.Any(h=>h.Day==date.Day && h.Month==date.Month))
+            if (holidays.Any(h => h.Day == date.Day && h.Month == date.Month))
             {
                 return true;
             }
@@ -46,11 +47,11 @@ namespace Chapter_11_CreatingAndUsingObjects.Problem9
         {
             DateTime[] holidays = new DateTime[]
             {
-                DateTime.ParseExact($"06-05-{Constants.HelpYear}", Constants.Format,CultureInfo.InvariantCulture),
-                DateTime.ParseExact($"01-05-{Constants.HelpYear}", Constants.Format,CultureInfo.InvariantCulture),
-                DateTime.ParseExact($"25-12-{Constants.HelpYear}", Constants.Format,CultureInfo.InvariantCulture),
-                DateTime.ParseExact($"03-03-{Constants.HelpYear}", Constants.Format,CultureInfo.InvariantCulture),
-                DateTime.ParseExact($"25-09-{Constants.HelpYear}", Constants.Format,CultureInfo.InvariantCulture),
+                DateTime.ParseExact($"06-05-{Constants.HelpYear}", Constants.Format, CultureInfo.InvariantCulture),
+                DateTime.ParseExact($"01-05-{Constants.HelpYear}", Constants.Format, CultureInfo.InvariantCulture),
+                DateTime.ParseExact($"25-12-{Constants.HelpYear}", Constants.Format, CultureInfo.InvariantCulture),
+                DateTime.ParseExact($"03-03-{Constants.HelpYear}", Constants.Format, CultureInfo.InvariantCulture),
+                DateTime.ParseExact($"25-09-{Constants.HelpYear}", Constants.Format, CultureInfo.InvariantCulture),
             };
 
             return holidays;
@@ -60,9 +61,9 @@ namespace Chapter_11_CreatingAndUsingObjects.Problem9
         {
             DateTime[] workingSaturdays = new DateTime[]
             {
-                DateTime.ParseExact($"24-11-2018", Constants.Format,CultureInfo.InvariantCulture),
-                DateTime.ParseExact($"23-02-2019", Constants.Format,CultureInfo.InvariantCulture),
-                DateTime.ParseExact($"26-01-2020", Constants.Format,CultureInfo.InvariantCulture),
+                DateTime.ParseExact($"24-11-2018", Constants.Format, CultureInfo.InvariantCulture),
+                DateTime.ParseExact($"23-02-2019", Constants.Format, CultureInfo.InvariantCulture),
+                DateTime.ParseExact($"26-01-2020", Constants.Format, CultureInfo.InvariantCulture),
             };
 
             return workingSaturdays;

@@ -51,10 +51,10 @@ namespace Chapter_14_DefiningClasses.Problem20
         {
             this.Books.AddRange(new List<Book>()
             {
-                new Book("It","Steven King",1983,"749832498375"),
-                new Book("Crime and Punishment","Fyodor Dostoevski",1866,"345354354325"),
-                new Book("Map and territory","Michelle Welbek",2003,"9878374832748374"),
-                new Book("Alice in wonderland","Luois Carol",1888,"43543543545")
+                new Book("It", "Steven King", 1983, "749832498375"),
+                new Book("Crime and Punishment", "Fyodor Dostoevski", 1866, "345354354325"),
+                new Book("Map and territory", "Michelle Welbek", 2003, "9878374832748374"),
+                new Book("Alice in wonderland", "Luois Carol", 1888, "43543543545")
             });
         }
     }

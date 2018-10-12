@@ -1,6 +1,6 @@
 ﻿namespace Utilities
 {
-  public  class Constants
+    public class Constants
     {
     }
 }

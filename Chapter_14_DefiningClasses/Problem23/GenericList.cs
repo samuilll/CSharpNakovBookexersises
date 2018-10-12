@@ -5,8 +5,8 @@ using System.Linq;
 
 namespace Chapter_14_DefiningClasses.Problem23
 {
-   public class GenericList<T>:IEnumerable<T>
-        where T:IComparable<T>
+    public class GenericList<T> : IEnumerable<T>
+        where T : IComparable<T>
     {
         private const int InitialCapacity = 16;
 
@@ -19,7 +19,7 @@ namespace Chapter_14_DefiningClasses.Problem23
         }
 
         public GenericList()
-            :this(InitialCapacity)
+            : this(InitialCapacity)
         {
         }
 
@@ -32,12 +32,10 @@ namespace Chapter_14_DefiningClasses.Problem23
         {
             get
             {
-                return this.data.Take(this.length).ToArray(); ;
+                return this.data.Take(this.length).ToArray();
+                ;
             }
-            private  set
-            {
-                this.data = value;
-            }
+            private set { this.data = value; }
         }
 
         public void Add(T element)
@@ -46,6 +44,7 @@ namespace Chapter_14_DefiningClasses.Problem23
             {
                 this.data = this.data.Concat(new T[this.length]).ToArray();
             }
+
             this.data[length] = element;
 
             this.length++;
@@ -65,24 +64,21 @@ namespace Chapter_14_DefiningClasses.Problem23
                 tempArray[i] = this.data[i];
             }
 
-                tempArray[index] = element;
+            tempArray[index] = element;
 
-                for (int i = index + 1; i < tempArray.Length; i++)
-                {
-                    tempArray[i] = data[i - 1];
-                }
+            for (int i = index + 1; i < tempArray.Length; i++)
+            {
+                tempArray[i] = data[i - 1];
+            }
 
-                this.data = tempArray;
+            this.data = tempArray;
 
-              this.length = this.data.Length;
+            this.length = this.data.Length;
         }
 
         public T this[int index]
         {
-            get
-            {
-                return this.data[index];
-            }
+            get { return this.data[index]; }
         }
 
         public bool Contains(T element)
@@ -138,6 +134,7 @@ namespace Chapter_14_DefiningClasses.Problem23
 
             return this.data[index];
         }
+
         public void Clear()
         {
             this.data = new T[InitialCapacity];
@@ -148,7 +145,7 @@ namespace Chapter_14_DefiningClasses.Problem23
         {
             string result = "No elements to show!";
 
-            if (this.length>0)
+            if (this.length > 0)
             {
                 result = string.Join(", ", this.data.Take(this.length));
             }

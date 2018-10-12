@@ -6,7 +6,7 @@ namespace Chapter_16_LinearDataStructures.Problem15
 {
     class ArrayManager
     {
-        public Writer Writer { get;}
+        public Writer Writer { get; }
         public Reader Reader { get; }
 
         public ArrayManager(Writer writer, Reader rEader)
@@ -21,7 +21,7 @@ namespace Chapter_16_LinearDataStructures.Problem15
 
             int[] numbers = Reader
                 .ReadLine()
-                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
 
@@ -33,7 +33,7 @@ namespace Chapter_16_LinearDataStructures.Problem15
             Writer.WriteLine(string.Join(", ", numbers));
         }
 
-        public  void SortTheArrayWithBubbleMethod(int[] numbers)
+        public void SortTheArrayWithBubbleMethod(int[] numbers)
         {
             bool hasChange = true;
 
@@ -53,7 +53,7 @@ namespace Chapter_16_LinearDataStructures.Problem15
             }
         }
 
-        public  void SwapNumbers(int[] numbers, int index)
+        public void SwapNumbers(int[] numbers, int index)
         {
             int temp = numbers[index];
             numbers[index] = numbers[index + 1];

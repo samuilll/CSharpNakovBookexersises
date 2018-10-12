@@ -10,8 +10,8 @@
             ISBN = iSBN;
         }
 
-        public string Title { get;private set; }
-        public string Author { get;private set; }
+        public string Title { get; private set; }
+        public string Author { get; private set; }
         public int EditionYear { get; set; }
         public string ISBN { get; set; }
 

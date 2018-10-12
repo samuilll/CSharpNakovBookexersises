@@ -3,7 +3,7 @@ using Utilities.Contracts;
 
 namespace Utilities
 {
-   public  class Reader:IReader
+    public class Reader : IReader
     {
         public string ReadLine()
         {

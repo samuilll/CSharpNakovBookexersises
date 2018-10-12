@@ -2,7 +2,7 @@
 
 namespace Utilities
 {
-   public abstract class Problem:IProblem
+    public abstract class Problem : IProblem
     {
         public Problem()
         {

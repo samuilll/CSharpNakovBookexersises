@@ -5,7 +5,7 @@ using Utilities;
 
 namespace Chapter_6_Loops
 {
-     class Problem_16 : Problem
+    class Problem_16 : Problem
     {
         // Randomize members from 1 To N
         public override void Run()

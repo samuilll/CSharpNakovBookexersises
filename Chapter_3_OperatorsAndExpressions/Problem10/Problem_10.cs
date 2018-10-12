@@ -4,18 +4,18 @@ using Utilities;
 
 namespace Chapter_3_OperatorsAndExpressions.Problem10
 {
-    class Problem_10:Problem
+    class Problem_10 : Problem
     {
         public override void Run()
         {
-                int number = EnterTheNumber();
+            int number = EnterTheNumber();
 
-                ValidateCountOfNumberDigits(number);
+            ValidateCountOfNumberDigits(number);
 
-                PrintSumOfTheDigits(number);
-                PrintTheReversedNumber(number);
-                PrintNumberWithFirstAndLastDigitsReversed(number);
-                PrintTheNumberWithSecondAndThirdDigitsReversed(number);   
+            PrintSumOfTheDigits(number);
+            PrintTheReversedNumber(number);
+            PrintNumberWithFirstAndLastDigitsReversed(number);
+            PrintTheNumberWithSecondAndThirdDigitsReversed(number);
         }
 
         private static void ValidateCountOfNumberDigits(int number)
@@ -43,7 +43,7 @@ namespace Chapter_3_OperatorsAndExpressions.Problem10
         {
             string numAsString = number.ToString();
 
-  
+
             string result = numAsString[3].ToString()
                             + numAsString[1].ToString()
                             + numAsString[2].ToString()

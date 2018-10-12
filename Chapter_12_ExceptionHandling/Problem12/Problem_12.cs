@@ -10,7 +10,7 @@ namespace Chapter_12_ExceptionHandling.Problem12
         {
             FileManager manager = new FileManager();
 
-            Writer.WriteLine("Please the the path of the file or press enter for default path");
+            Writer.WriteLine("Please enter the path of the file or press enter for default path");
             string path = this.Reader.ReadLine();
 
             if (path == string.Empty)

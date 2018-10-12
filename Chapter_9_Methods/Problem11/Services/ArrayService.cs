@@ -6,8 +6,6 @@ namespace Chapter_9_Methods.Problem11.Services
 {
     internal class ArrayService : Problem
     {
-
-
         public override void Run()
         {
             decimal[] sequence = this.InsertNonEmptySequence();
@@ -43,7 +41,6 @@ namespace Chapter_9_Methods.Problem11.Services
         }
 
 
-
         internal decimal[] InsertNonEmptySequence()
         {
             Writer.WriteLine("Please enter a sequence of numbers");
@@ -52,8 +49,8 @@ namespace Chapter_9_Methods.Problem11.Services
 
             while (sequence == null || sequence.Length == 0)
             {
-                    sequence = this.Reader.ReadLine()
-                    .Split(new char[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries)
+                sequence = this.Reader.ReadLine()
+                    .Split(new char[] {' ', ','}, StringSplitOptions.RemoveEmptyEntries)
                     .Select(decimal.Parse)
                     .ToArray();
             }
@@ -73,7 +70,7 @@ namespace Chapter_9_Methods.Problem11.Services
 
             for (int i = 0; i < sortedArray.Length; i++)
             {
-                int currentMaxIndex = this.FindMaxInRangeIndex(sortedArray, i,sortedArray.Length-1 );
+                int currentMaxIndex = this.FindMaxInRangeIndex(sortedArray, i, sortedArray.Length - 1);
 
                 MoveMaxForward(sortedArray, currentMaxIndex, i);
             }

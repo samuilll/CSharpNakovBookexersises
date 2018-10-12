@@ -4,12 +4,12 @@ using Utilities;
 
 namespace Chapter_4_ConsoleInputOutput
 {
-    class Problem_12:Problem
+    class Problem_12 : Problem
     {
         public override void Run()
         {
             StringBuilder sb = new StringBuilder();
-      
+
             for (int i = 0; i < 100; i++)
             {
                 BigInteger fibonacciInNumber = GetNextFib(i);
@@ -18,16 +18,16 @@ namespace Chapter_4_ConsoleInputOutput
             }
 
             Writer.WriteLine("First 100 Fibonacci numbers:");
-            Writer.WriteLine(sb.ToString().TrimEnd(',',' '));
-
+            Writer.WriteLine(sb.ToString().TrimEnd(',', ' '));
         }
 
-        private  BigInteger GetNextFib(long number)
+        private BigInteger GetNextFib(long number)
         {
             if (number == 0)
             {
                 return 0;
             }
+
             if (number == 1 || number == 2)
             {
                 return 1;

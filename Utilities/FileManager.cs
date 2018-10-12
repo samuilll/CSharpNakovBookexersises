@@ -5,9 +5,9 @@ using Utilities.Exceptions;
 
 namespace Utilities
 {
-  public  class FileManager
+    public class FileManager
     {
-      public  string ReadAllText(string path)
+        public string ReadAllText(string path)
         {
             while (true)
             {
@@ -23,15 +23,15 @@ namespace Utilities
                 }
                 catch (FileNotFoundException ex)
                 {
-                   throw new FileNotFoundException("There is no file with the given path",ex);
+                    throw new FileNotFoundException("There is no file with the given path", ex);
                 }
                 catch (NotSupportedException ex)
                 {
-                    throw new NotSupportedException("The given path has invalid format",ex);
+                    throw new NotSupportedException("The given path has invalid format", ex);
                 }
                 catch (UnauthorizedAccessException ex)
                 {
-                    throw new UnauthorizedAccessException("Yor are not authorized to use this file",ex);
+                    throw new UnauthorizedAccessException("Yor are not authorized to use this file", ex);
                 }
             }
         }
@@ -66,7 +66,7 @@ namespace Utilities
         }
 
 
-        public void ValidateFile(string fileName,string[] lines)
+        public void ValidateFile(string fileName, string[] lines)
         {
             for (int i = 0; i < lines.Length; i++)
             {
@@ -82,15 +82,15 @@ namespace Utilities
 
         public void IsHtmlValidation(string fileName)
         {
-            if (!fileName.EndsWith(".html"))       
+            if (!fileName.EndsWith(".html"))
             {
-               throw new NotSupportedException("The file must be html"); 
+                throw new NotSupportedException("The file must be html");
             }
         }
 
-        public void WriteAllText(string path,string content)
+        public void WriteAllText(string path, string content)
         {
-            File.WriteAllText(path,content);
+            File.WriteAllText(path, content);
         }
 
         public void WriteAllLines(string path, string[] content)

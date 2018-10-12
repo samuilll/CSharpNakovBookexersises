@@ -26,10 +26,11 @@ namespace Chapter_8_NumeralSystems.Problems12and13
                     number -= item.Key;
                 }
             }
+
             return roman.ToString();
         }
 
-        public  int FromRomanToArabic(string roman)
+        public int FromRomanToArabic(string roman)
         {
             int total = 0;
 
@@ -54,6 +55,7 @@ namespace Chapter_8_NumeralSystems.Problems12and13
 
                 previousRoman = currentRoman;
             }
+
             return total;
         }
 

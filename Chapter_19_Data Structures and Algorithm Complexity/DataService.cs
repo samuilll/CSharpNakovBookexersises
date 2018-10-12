@@ -8,7 +8,7 @@ namespace Chapter_19_Data_Structures_and_Algorithm_Complexity
 {
     class DataService
     {
-        public  void LoadData(Dictionary<decimal, HashSet<Article>> storage)
+        public void LoadData(Dictionary<decimal, HashSet<Article>> storage)
         {
             Random randomizer = new Random();
 
@@ -31,12 +31,13 @@ namespace Chapter_19_Data_Structures_and_Algorithm_Complexity
                 {
                     storage[price] = new HashSet<Article>();
                 }
+
                 storage[price].Add(article);
             }
-      
         }
 
-        public HashSet<Article> GetSearchedItemsCount(int firstPrice, int secondPrice, Dictionary<decimal, HashSet<Article>> storage)
+        public HashSet<Article> GetSearchedItemsCount(int firstPrice, int secondPrice,
+            Dictionary<decimal, HashSet<Article>> storage)
         {
             HashSet<Article> selectedArticles = new HashSet<Article>();
 
@@ -49,15 +50,17 @@ namespace Chapter_19_Data_Structures_and_Algorithm_Complexity
             {
                 selectedArticles.UnionWith(set);
             }
+
             return selectedArticles;
         }
 
-        public void SplitDataAndFillTheDataStrucure(SortedDictionary<string, SortedSet<Student>> dataStorage, string[] dataLines)
+        public void SplitDataAndLoadTheDataStrucure(SortedDictionary<string, SortedSet<Student>> dataStorage,
+            string[] dataLines)
         {
             foreach (string line in dataLines)
             {
                 string[] args = line
-                    .Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Split(new[] {'|'}, StringSplitOptions.RemoveEmptyEntries)
                     .Select(x => x.Trim())
                     .ToArray();
 
@@ -68,7 +71,7 @@ namespace Chapter_19_Data_Structures_and_Algorithm_Complexity
                 string firstName = studentNamesSplit[0];
                 string lastName = studentNamesSplit[1];
 
-                Student student = new Student(firstName,lastName);
+                Student student = new Student(firstName, lastName);
 
                 if (!dataStorage.ContainsKey(course))
                 {

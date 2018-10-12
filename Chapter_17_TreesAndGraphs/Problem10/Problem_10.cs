@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Utilities;
 
-namespace Chapter_17_TreesAndGraphs.Problem5
+namespace Chapter_17_TreesAndGraphs.Problem10
 {
-    class Problem_10:Problem
+    class Problem_10 : Problem
     {
         public override void Run()
         {

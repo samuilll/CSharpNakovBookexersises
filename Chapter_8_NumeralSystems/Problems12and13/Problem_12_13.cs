@@ -3,7 +3,7 @@ using Utilities;
 
 namespace Chapter_8_NumeralSystems.Problems12and13
 {
-    class Problem_12_13:Problem
+    class Problem_12_13 : Problem
     {
         public override void Run()
         {

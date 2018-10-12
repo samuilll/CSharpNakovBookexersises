@@ -1,6 +1,6 @@
 ﻿namespace Utilities.Contracts
 {
-  public  interface IWriter
+    public interface IWriter
     {
         void WriteLine(object obj);
 

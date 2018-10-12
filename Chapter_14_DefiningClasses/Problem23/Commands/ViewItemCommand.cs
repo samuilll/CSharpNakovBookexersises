@@ -2,7 +2,7 @@
 
 namespace Chapter_14_DefiningClasses.Problem23.Commands
 {
-    class ViewItemCommand:Command
+    class ViewItemCommand : Command
     {
         private GenericList<string> data;
 

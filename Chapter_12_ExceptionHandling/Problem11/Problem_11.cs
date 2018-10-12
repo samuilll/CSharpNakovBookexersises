@@ -12,7 +12,7 @@ namespace Chapter_12_ExceptionHandling.Problem11
 
         public override void Run()
         {
-           FileManager manager = new FileManager();
+            FileManager manager = new FileManager();
 
             try
             {
@@ -24,17 +24,13 @@ namespace Chapter_12_ExceptionHandling.Problem11
 
                 string[] lines = content.Split(Environment.NewLine).ToArray();
 
-                manager.ValidateFile(fileName,lines);
+                manager.ValidateFile(fileName, lines);
 
                 Writer.WriteLine("The file was successfully parsed!");
             }
             catch (FileParseException ex)
             {
-                throw;
-            }
-            catch (Exception e)
-            {
-                throw;
+                throw ex;
             }
         }
     }

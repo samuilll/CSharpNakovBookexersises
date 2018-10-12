@@ -2,7 +2,7 @@
 
 namespace Chapter_5_ConditionalStatements.Problems
 {
-     class Problem_08 : Problem
+    class Problem_08 : Problem
     {
         public override void Run()
         {
@@ -11,7 +11,7 @@ namespace Chapter_5_ConditionalStatements.Problems
             object obj = this.Reader.ReadLine();
 
             bool isInteger = int.TryParse(obj.ToString(), out int integerNumber);
-            bool isDouble = double.TryParse(obj.ToString(),out double doubleNumber);
+            bool isDouble = double.TryParse(obj.ToString(), out double doubleNumber);
             bool isNumber = isInteger || isDouble;
 
             string result = obj.ToString();
@@ -28,6 +28,5 @@ namespace Chapter_5_ConditionalStatements.Problems
             Writer.WriteLine("Output:");
             Writer.WriteLine(result);
         }
-
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Chapter_18_DictionariesHashTablesAndSets.Problem_11
 {
-    class TimeInterval:IComparable<TimeInterval>,IEqualityComparer<TimeInterval>
+    class TimeInterval : IComparable<TimeInterval>, IEqualityComparer<TimeInterval>
     {
         public TimeInterval(DateTime arrivingTime, DateTime departureTime)
         {

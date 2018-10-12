@@ -4,13 +4,13 @@ using Utilities;
 
 namespace Chapter_22_LambdaExpressionsandLINQ.Problem6
 {
-    class Problem_6:Problem
+    class Problem_6 : Problem
     {
         public override void Run()
         {
             Writer.WriteLine("Please enter a sequence of integers which will be checked for division to 7 and 3 ");
             int[] numbers = Reader.ReadLine()
-                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
 
@@ -35,7 +35,7 @@ namespace Chapter_22_LambdaExpressionsandLINQ.Problem6
             }
         }
 
-        private  void SelectionWithLINQ(int[] numbers)
+        private void SelectionWithLINQ(int[] numbers)
         {
             var selectedNumbers =
                 from num in numbers

@@ -3,20 +3,21 @@ using Utilities;
 
 namespace Chapter_19_Data_Structures_and_Algorithm_Complexity.Problem3
 {
-    class Problem_3:Problem
+    class Problem_3 : Problem
     {
-        private const string Path = @"../../../students.txt";
+        private const string Path = @"../../../Problem3/students.txt";
 
         public override void Run()
         {
             FileManager fileManager = new FileManager();
             DataService dataService = new DataService();
 
-            SortedDictionary<string, SortedSet<Student>> dataStorage = new SortedDictionary<string, SortedSet<Student>>();
+            SortedDictionary<string, SortedSet<Student>> dataStorage =
+                new SortedDictionary<string, SortedSet<Student>>();
 
             string[] dataLines = fileManager.ReadAllLines(Path);
 
-            dataService.SplitDataAndFillTheDataStrucure(dataStorage, dataLines);
+            dataService.SplitDataAndLoadTheDataStrucure(dataStorage, dataLines);
 
             DisplayResult(dataStorage);
         }

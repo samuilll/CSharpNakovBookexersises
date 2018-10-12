@@ -4,9 +4,8 @@ using Utilities;
 
 namespace Chapter_11_CreatingAndUsingObjects.Problem9
 {
-    class Problem_9:Problem
+    class Problem_9 : Problem
     {
-
         public override void Run()
         {
             DatesManager manager = new DatesManager();

@@ -18,7 +18,8 @@ namespace Chapter_19_Data_Structures_and_Algorithm_Complexity.Problem6
 
             dataService.LoadData(storage);
 
-            Writer.WriteLine($"Ten milions articles have just been loaded in {stop.Elapsed.TotalMilliseconds} miliseconds");
+            Writer.WriteLine(
+                $"Ten milions articles have just been loaded in {stop.Elapsed.TotalMilliseconds} miliseconds");
             Writer.WriteLine("Please enter first integer value in the range [1,99999].");
             int firstValue = int.Parse(Reader.ReadLine());
             Writer.WriteLine("Please enter one more integer value in the range [1,99999].");
@@ -26,13 +27,12 @@ namespace Chapter_19_Data_Structures_and_Algorithm_Complexity.Problem6
 
             stop.Restart();
 
-            HashSet<Article> articles =  dataService.GetSearchedItemsCount(firstValue,secondValue,storage);
+            HashSet<Article> articles = dataService.GetSearchedItemsCount(firstValue, secondValue, storage);
             int itemsCount = articles.Count;
 
-            Writer.WriteLine($"{itemsCount} articles with price in the range[{firstValue},{secondValue}] was obtained in {stop.Elapsed.TotalMilliseconds} miliseconds");           ;
+            Writer.WriteLine(
+                $"{itemsCount} articles with price in the range[{firstValue},{secondValue}] was obtained in {stop.Elapsed.TotalMilliseconds} miliseconds");
+            ;
         }
-
-       
     }
 }
-    

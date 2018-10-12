@@ -2,7 +2,7 @@
 
 namespace Chapter_1_IntroductionToProgramming.Problem10
 {
-    class Problem_10:Problem
+    class Problem_10 : Problem
     {
         public override void Run()
         {
@@ -11,7 +11,7 @@ namespace Chapter_1_IntroductionToProgramming.Problem10
 
             int[] nums = new int[100];
 
-            for (int i = 0; i < 100; i+=2)
+            for (int i = 0; i < 100; i += 2)
             {
                 nums[i] = positiveNum;
                 nums[i + 1] = negativeNum;
@@ -21,7 +21,7 @@ namespace Chapter_1_IntroductionToProgramming.Problem10
             }
 
             Writer.WriteLine("First 100 numbers of the sequence 2,-3,4,-5,6...:");
-            Writer.WriteLine(string.Join(", ",nums));
+            Writer.WriteLine(string.Join(", ", nums));
         }
     }
 }

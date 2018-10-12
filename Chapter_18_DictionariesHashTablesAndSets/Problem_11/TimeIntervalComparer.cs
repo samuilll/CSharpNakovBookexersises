@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Chapter_18_DictionariesHashTablesAndSets.Problem_11
 {
-    class TimeIntervalComparer:IEqualityComparer<TimeInterval>
+    class TimeIntervalComparer : IEqualityComparer<TimeInterval>
     {
         public bool Equals(TimeInterval x, TimeInterval y)
         {
@@ -19,7 +19,7 @@ namespace Chapter_18_DictionariesHashTablesAndSets.Problem_11
 
         public int GetHashCode(TimeInterval time)
         {
-           return 0;
+            return 0;
         }
     }
 }

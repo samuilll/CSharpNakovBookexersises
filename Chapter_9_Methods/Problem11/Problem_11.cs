@@ -6,32 +6,31 @@ namespace Chapter_9_Methods.Problem11
 {
     class Problem_11 : Problem
     {
-      public override  void Run()
+        public override void Run()
         {
             int choice = ChooseAnOption();
 
             switch (choice)
             {
                 case 1:
-                    {
-                        ReverseNumService reverseManager = new ReverseNumService();
-                        reverseManager.Run();
-                        break;
-                    }
+                {
+                    ReverseNumService reverseManager = new ReverseNumService();
+                    reverseManager.Run();
+                    break;
+                }
                 case 2:
-                    {
-                        ArrayService averageManager = new ArrayService();
-                        averageManager.Run();
-                        break;
-                    }
+                {
+                    ArrayService averageManager = new ArrayService();
+                    averageManager.Run();
+                    break;
+                }
                 case 3:
-                    {
-                        LinealEquationService equationManager = new LinealEquationService();
-                        equationManager.Run();
-                        break;
-                    }
+                {
+                    LinealEquationService equationManager = new LinealEquationService();
+                    equationManager.Run();
+                    break;
+                }
             }
-
         }
 
         private static int ChooseAnOption()
@@ -45,7 +44,7 @@ namespace Chapter_9_Methods.Problem11
             int choice;
             string input = Console.ReadLine();
 
-            while (!int.TryParse(input,out choice)||choice<1||choice>3)
+            while (!int.TryParse(input, out choice) || choice < 1 || choice > 3)
             {
                 try
                 {
@@ -59,7 +58,5 @@ namespace Chapter_9_Methods.Problem11
 
             return choice;
         }
-
-   
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Utilities;
 
-namespace Cahpter_13_StringAndTextProceesing.Problem26
+namespace Chapter_13_StringAndTextProceesing.Problem26
 {
     class Problem_26 : Problem
     {
@@ -83,6 +83,7 @@ namespace Cahpter_13_StringAndTextProceesing.Problem26
                 sb.Append(ch);
             }
         }
+
         private static void OpenTagIfNecessary(Stack<char> tagData, StringBuilder sb, char ch)
         {
             if (ch == '<')

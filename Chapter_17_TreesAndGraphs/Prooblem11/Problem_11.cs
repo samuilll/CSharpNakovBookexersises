@@ -7,12 +7,14 @@ using Utilities;
 
 namespace Chapter_17_TreesAndGraphs.Prooblem11
 {
-    class Problem_11:Problem
+    class Problem_11 : Problem
     {
         private const string SearchedExtension = ".exe";
+
         public override void Run()
         {
-            Writer.WriteLine("Find all its subdirectories recursively and prints all the files which have extension *.exe");
+            Writer.WriteLine(
+                "Find all its subdirectories recursively and prints all the files which have extension *.exe");
             Writer.WriteLine("Please enter the directory to traverse path");
             string path = Reader.ReadLine();
 
@@ -31,7 +33,7 @@ namespace Chapter_17_TreesAndGraphs.Prooblem11
                 string[] searchedFileNames = dirToInspect
                     .GetFiles()
                     .Where(f => f.Extension == SearchedExtension)
-                    .Select(f => f.Name)    
+                    .Select(f => f.Name)
                     .ToArray();
 
                 Writer.WriteLine(path);

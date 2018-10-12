@@ -30,7 +30,6 @@ namespace Chapter_11_CreatingAndUsingObjects.Problem11
                 "Peterson",
                 "Charls"
             };
-
         }
 
         private string[] GetFirstNames()

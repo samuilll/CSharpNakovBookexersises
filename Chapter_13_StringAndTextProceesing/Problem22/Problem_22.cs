@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Utilities;
 
-namespace Cahpter_13_StringAndTextProceesing.Problem22
+namespace Chapter_13_StringAndTextProceesing.Problem22
 {
-    class Problem_22:Problem
+    class Problem_22 : Problem
     {
         public override void Run()
         {

@@ -9,18 +9,18 @@ namespace Chapter_5_ConditionalStatements.Problems
 
         public override void Run()
         {
-                Writer.WriteLine("Please insert entry points:");
-                int entryPoints = int.Parse(this.Reader.ReadLine());
+            Writer.WriteLine("Please insert entry points:");
+            int entryPoints = int.Parse(this.Reader.ReadLine());
 
-                if (entryPoints <= 0 || entryPoints > 9)
-                {
-                    throw new InvalidDataException(InvalidPointsErrorMessage);
-                }
+            if (entryPoints <= 0 || entryPoints > 9)
+            {
+                throw new InvalidDataException(InvalidPointsErrorMessage);
+            }
 
-                int outputPoints = 0;
+            int outputPoints = 0;
 
-                outputPoints = MultiplyPoints(entryPoints, outputPoints);
-                DisplayTheResult(outputPoints);         
+            outputPoints = MultiplyPoints(entryPoints, outputPoints);
+            DisplayTheResult(outputPoints);
         }
 
         private void DisplayTheResult(int outputPoints)
@@ -36,24 +36,24 @@ namespace Chapter_5_ConditionalStatements.Problems
                 case 1:
                 case 2:
                 case 3:
-                    {
-                        outputPoints = entryPoints * 10;
-                        break;
-                    }
+                {
+                    outputPoints = entryPoints * 10;
+                    break;
+                }
                 case 4:
                 case 5:
                 case 6:
-                    {
-                        outputPoints = entryPoints * 100;
-                        break;
-                    }
+                {
+                    outputPoints = entryPoints * 100;
+                    break;
+                }
                 case 7:
                 case 8:
                 case 9:
-                    {
-                        outputPoints = entryPoints * 1000;
-                        break;
-                    }
+                {
+                    outputPoints = entryPoints * 1000;
+                    break;
+                }
             }
 
             return outputPoints;

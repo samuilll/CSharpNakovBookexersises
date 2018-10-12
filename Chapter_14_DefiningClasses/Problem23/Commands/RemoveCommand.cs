@@ -13,13 +13,14 @@ namespace Chapter_14_DefiningClasses.Problem23.Commands
         {
             this.data = data;
         }
+
         public override string Execute()
         {
             int index = int.Parse(this.Arguments[0]);
 
             this.data.RemoveAt(index);
 
-            return string.Format(Success,index);
+            return string.Format(Success, index);
         }
     }
 }
