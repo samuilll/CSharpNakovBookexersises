@@ -1,0 +1,1 @@
+.parse is a static . it  a new  instance, which is represented as a struct. if you provide no time, the time "12 am" is used.

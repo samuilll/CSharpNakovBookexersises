@@ -8,18 +8,19 @@ namespace Chapter_12_ExceptionHandling.Problem11
 {
     class Problem_11 : Problem
     {
+        private string DefaultPath = "../../../Problem11/text.txt";
+
         public override void Run()
         {
            FileManager manager = new FileManager();
 
             try
             {
-                //??? add files please
-                Writer.WriteLine("Please enter the path of a file:");
-                string path = this.Reader.ReadLine();
-                string fileName = path.Split('\\').Last();
+                Writer.WriteLine("Checking if the file has a row without digit. If has - throw a custom exception");
 
-                string content = manager.ReadAllText(path);
+                string fileName = DefaultPath.Split('\\').Last();
+
+                string content = manager.ReadAllText(DefaultPath);
 
                 string[] lines = content.Split(Environment.NewLine).ToArray();
 
@@ -29,11 +30,11 @@ namespace Chapter_12_ExceptionHandling.Problem11
             }
             catch (FileParseException ex)
             {
-                Console.WriteLine(ex.Message);
+                throw;
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                throw;
             }
         }
     }

@@ -18,7 +18,7 @@ namespace Utilities
             Assembly assembly = Assembly.GetCallingAssembly();
 
             //Get "Problem" types and sort them by the number of the problem in the end of it's name; Example problem name: "Problem_22"
-            //Options in the menu will be assotiated with obtained number
+            //Options in the menu will be assotiated with the order
             Type[] types = assembly
                 .GetTypes()
                 .Where(t => t.Name.Contains(TypeKeyWord))
@@ -73,8 +73,11 @@ namespace Utilities
                     }
                     catch (Exception e)
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine(e.Message);
-                    }                     
+                        Console.ForegroundColor = ConsoleColor.White;
+
+            }
         }
     }
 }

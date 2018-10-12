@@ -8,38 +8,35 @@ namespace Cahpter_13_StringAndTextProceesing.Problem26
 {
     class Problem_26 : Problem
     {
-        //please add default paths
+        private const string DefaultPath = "../../../Problem26/layout.html";
+
         public override void Run()
         {
             FileManager manager = new FileManager();
 
             Stack<char> tagData = new Stack<char>();
 
-            try
+            Writer.WriteLine(
+                "Please enter path of the a html file you want to have without tags (for default file press \"Enter\")");
+            string path = this.Reader.ReadLine();
+
+            if (path == string.Empty)
             {
-                Writer.WriteLine("Please the the path of the file:");
-                string path = this.Reader.ReadLine();
-                string fileName = path.Split('\\').Last();
-
-                string content = manager.ReadAllText(path);
-                manager.IsHtmlValidation(fileName);
-
-                StringBuilder sb = new StringBuilder();
-
-                InspectTheFile(tagData, content, sb);
-
-                string result = ExtractResult(sb);
-
-                Writer.WriteLine(result);
+                path = DefaultPath;
             }
-            catch (NotSupportedException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
+
+            string fileName = path.Split('\\').Last();
+            manager.IsHtmlValidation(fileName);
+
+            string content = manager.ReadAllText(path);
+
+            StringBuilder sb = new StringBuilder();
+
+            InspectTheFile(tagData, content, sb);
+
+            string result = ExtractResult(sb);
+
+            Writer.WriteLine(result);
         }
 
         private static void InspectTheFile(Stack<char> tagData, string content, StringBuilder sb)
@@ -59,11 +56,11 @@ namespace Cahpter_13_StringAndTextProceesing.Problem26
         {
             string result = sb.ToString();
 
-            string[] resultArgs = result
-                                    .Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries)
-                                    .Where(l => !(string.IsNullOrEmpty(l) || string.IsNullOrWhiteSpace(l)))
-                                    .Select(l => l.Trim())
-                                    .ToArray();
+            string[] resultArgs = result.Split(new char[] {'\n', '\r'}, StringSplitOptions.RemoveEmptyEntries)
+                .Where(l => !(string.IsNullOrEmpty(l) || string.IsNullOrWhiteSpace(l)))
+                .Select(l => l.Trim())
+                .ToArray();
+
             result = string.Join(Environment.NewLine, resultArgs);
             return result;
         }
