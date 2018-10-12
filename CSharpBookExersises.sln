@@ -21,8 +21,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_11_CreatingAndUsing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_12_ExceptionHandling", "Chapter_12_ExceptionHandling\Chapter_12_ExceptionHandling.csproj", "{9BB927BE-7BE3-4189-B363-8B7AA785F20E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cahpter_13_StringAndTextProceesing", "Cahpter_13_StringAndTextProceesing\Cahpter_13_StringAndTextProceesing.csproj", "{01F54CAF-53A2-4A35-B279-1E67170E19CB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_14_DefiningClasses", "Chapter_14_DefiningClasses\Chapter_14_DefiningClasses.csproj", "{9EA76349-7EB8-4929-80A8-AAAEBF1B10FC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_15_TextFiles", "Chapter_15_TextFiles\Chapter_15_TextFiles.csproj", "{22C59C26-E3ED-4159-BBF9-D4497D153C04}"
@@ -41,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_20_ObjectOrientedPr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_22_LambdaExpressionsandLINQ", "Chapter_22_LambdaExpressionsandLINQ\Chapter_22_LambdaExpressionsandLINQ.csproj", "{AE7BCD72-D163-42A8-A26A-1100EAAD72D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_19_Data Structures and Algorithm Complexity", "Chapter_19_Data Structures and Algorithm Complexity\Chapter_19_Data Structures and Algorithm Complexity.csproj", "{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_19_Data Structures and Algorithm Complexity", "Chapter_19_Data Structures and Algorithm Complexity\Chapter_19_Data Structures and Algorithm Complexity.csproj", "{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_13_StringAndTextProceesing", "Chapter_13_StringAndTextProceesing\Chapter_13_StringAndTextProceesing.csproj", "{F20B0C98-B2EC-41B0-9103-E1C784CE7981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,10 +85,6 @@ Global
 		{9BB927BE-7BE3-4189-B363-8B7AA785F20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BB927BE-7BE3-4189-B363-8B7AA785F20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BB927BE-7BE3-4189-B363-8B7AA785F20E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01F54CAF-53A2-4A35-B279-1E67170E19CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01F54CAF-53A2-4A35-B279-1E67170E19CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01F54CAF-53A2-4A35-B279-1E67170E19CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01F54CAF-53A2-4A35-B279-1E67170E19CB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9EA76349-7EB8-4929-80A8-AAAEBF1B10FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9EA76349-7EB8-4929-80A8-AAAEBF1B10FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EA76349-7EB8-4929-80A8-AAAEBF1B10FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -129,6 +125,10 @@ Global
 		{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D1A89AA-873B-47F9-A0EA-4F9091E247D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20B0C98-B2EC-41B0-9103-E1C784CE7981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20B0C98-B2EC-41B0-9103-E1C784CE7981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20B0C98-B2EC-41B0-9103-E1C784CE7981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20B0C98-B2EC-41B0-9103-E1C784CE7981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
